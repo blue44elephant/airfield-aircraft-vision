@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "airfield-aircraft-vision"
+version = "0.1.0"
+description = "Resolution-aware aircraft analysis contracts and routing"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "Epic Archer project" }]
+dependencies = [
+  "pydantic>=2.7,<3",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/airfield_aircraft_vision"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+pythonpath = ["src"]

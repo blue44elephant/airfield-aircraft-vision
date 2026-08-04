@@ -1,0 +1,13 @@
+[tier_a]
+maximum_physical_gsd_m = 1.0
+
+[tier_b]
+minimum_exclusive_physical_gsd_m = 1.0
+maximum_physical_gsd_m = 5.0
+
+[tier_c]
+minimum_exclusive_physical_gsd_m = 5.0
+
+# These values document initial policy. Production overrides require validation,
+# versioning, and tests; they must never be silently changed at runtime.
+

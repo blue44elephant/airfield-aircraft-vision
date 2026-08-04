@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.example.invalid/airfield-aircraft-vision/aircraft_annotation.schema.json",
+  "title": "Aircraft annotation",
+  "description": "One oriented aircraft annotation plus scene provenance. Geographic coordinates are optional and may be redacted in public exports.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "annotation_id",
+    "image_id",
+    "source_scene_id",
+    "sensor",
+    "acquisition_time",
+    "native_gsd_m",
+    "coordinates_redacted",
+    "oriented_bounding_box",
+    "class_label",
+    "truncation",
+    "occlusion",
+    "shadow_severity",
+    "image_quality",
+    "annotation_source",
+    "reviewer_status"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "annotation_id": { "type": "string", "minLength": 1 },
+    "image_id": { "type": "string", "minLength": 1 },
+    "source_scene_id": { "type": "string", "minLength": 1 },
+    "sensor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sensor_id", "domain"],
+      "properties": {
+        "provider_id": { "type": ["string", "null"] },
+        "platform_id": { "type": ["string", "null"] },
+        "sensor_id": { "type": "string", "minLength": 1 },
+        "domain": { "enum": ["optical", "sar"] },
+        "bands": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      }
+    },
+    "acquisition_time": { "type": "string", "format": "date-time" },
+    "native_gsd_m": { "type": "number", "exclusiveMinimum": 0 },
+    "effective_gsd_m": { "type": ["number", "null"], "exclusiveMinimum": 0 },
+    "aoi": { "$ref": "#/$defs/geometryOrNull" },
+    "coordinates_redacted": {
+      "type": "boolean",
+      "description": "True when sensitive geographic coordinates have intentionally been omitted or generalized."
+    },
+    "oriented_bounding_box": { "$ref": "#/$defs/orientedBox" },
+    "geographic_geometry": { "$ref": "#/$defs/geometryOrNull" },
+    "class_label": {
+      "enum": [
+        "combat_jet",
+        "bomber_or_large_combat_aircraft",
+        "transport_or_tanker",
+        "special_mission_aircraft",
+        "trainer_or_light_aircraft",
+        "helicopter",
+        "uav_like",
+        "unknown_aircraft"
+      ]
+    },
+    "subclass_or_family_candidate": {
+      "type": ["string", "null"],
+      "description": "Optional candidate only; not a verified exact-model label."
+    },
+    "weak_label_confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+    "truncation": { "type": "number", "minimum": 0, "maximum": 1 },
+    "occlusion": { "enum": ["none", "partial", "heavy", "unknown"] },
+    "shadow_severity": { "enum": ["none", "low", "medium", "high", "unknown"] },
+    "image_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["overall", "cloud", "haze", "obstruction"],
+      "properties": {
+        "overall": { "enum": ["acceptable", "poor", "unusable", "unknown"] },
+        "cloud": { "enum": ["none", "low", "medium", "high", "unknown"] },
+        "haze": { "enum": ["none", "low", "medium", "high", "unknown"] },
+        "obstruction": { "enum": ["none", "low", "medium", "high", "unknown"] },
+        "contrast": { "enum": ["good", "reduced", "poor", "unknown"] }
+      }
+    },
+    "annotation_source": {
+      "enum": ["expert_manual", "reviewed_manual", "weak_label", "model_assisted", "imported"]
+    },
+    "reviewer_status": {
+      "enum": ["unreviewed", "single_review", "double_review", "adjudicated", "rejected"]
+    },
+    "reviewer_ids": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Use pseudonymous IDs in public exports."
+    },
+    "notes": { "type": ["string", "null"], "maxLength": 4000 },
+    "flags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+  },
+  "$defs": {
+    "orientedBox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["center_x_px", "center_y_px", "width_px", "height_px", "angle_degrees_clockwise_from_image_up"],
+      "properties": {
+        "center_x_px": { "type": "number", "minimum": 0 },
+        "center_y_px": { "type": "number", "minimum": 0 },
+        "width_px": { "type": "number", "exclusiveMinimum": 0 },
+        "height_px": { "type": "number", "exclusiveMinimum": 0 },
+        "angle_degrees_clockwise_from_image_up": { "type": "number", "minimum": 0, "exclusiveMaximum": 360 },
+        "heading_ambiguity_degrees": { "type": ["number", "null"], "minimum": 0, "maximum": 180 }
+      }
+    },
+    "geometryOrNull": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "coordinates"],
+          "properties": {
+            "type": { "enum": ["Polygon", "MultiPolygon"] },
+            "coordinates": { "type": "array", "minItems": 1 }
+          }
+        }
+      ]
+    }
+  }
+}
+
