@@ -1,0 +1,38 @@
+{
+  "purpose": "pretrained frozen-backbone native512 train-tile CPU feasibility only",
+  "threads": 4,
+  "batch_size": 1,
+  "weights_url": "https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth",
+  "weights_bytes": 167502836,
+  "weights_sha256": "258fb6c638b15964ddcdd1ae0748c5eef1be9e732750120cc857feed3faac384",
+  "downloaded_bytes": 167502836,
+  "available_memory_mib": 1350.8515625,
+  "training_image_id": "1_104005000FDC8D00_tile_13.png",
+  "native_shape": [
+    3,
+    512,
+    512
+  ],
+  "training_boxes": 3,
+  "pretrained_inference_seconds": 1.1247226999985287,
+  "unadapted_coco_airplane_candidates_at_005": 0,
+  "bounded_frozen_training_step_seconds": 0.9690406000008807,
+  "losses": {
+    "loss_classifier": 3.4053614139556885,
+    "loss_box_reg": 0.715269923210144,
+    "loss_objectness": 0.32912677526474,
+    "loss_rpn_box_reg": 0.016616910696029663
+  },
+  "training_limits": {
+    "rpn_pre_nms": 1000,
+    "rpn_post_nms": 512,
+    "roi_batch": 128
+  },
+  "evaluation_limits_unchanged": {
+    "rpn_pre_nms": 1000,
+    "rpn_post_nms": 1000,
+    "roi_batch": 128
+  },
+  "rss_mib": 692.60546875,
+  "peak_working_set_mib": 702.19921875
+}

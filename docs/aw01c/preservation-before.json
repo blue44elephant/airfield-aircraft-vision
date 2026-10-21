@@ -1,0 +1,119 @@
+{
+  "purpose": "read-only preservation inventory before AW-01C training; original files not changed",
+  "recorded_utc": "2026-10-21T16:22:18.632645+00:00",
+  "repository_head": "137cdf6",
+  "files": {
+    "artifacts/aw01-3epoch.json": {
+      "sha256": "ec3bc1aba5c30d190fde92c1a47404daf774c02c2c7682c2bd091ea6238a903c",
+      "bytes": 2179
+    },
+    "artifacts/aw01-3epoch.pt": {
+      "sha256": "3f96b9ff3b42ebbc937eb818f2582de3e087e9eee654571363e778b8257b70fc",
+      "bytes": 76032747
+    },
+    "artifacts/aw01b/balanced_fpn_adamw/best-validation.json": {
+      "sha256": "ee37a1b37d4c211decfdf68df0f083d625435765f7888b4718441235ddcbb99c",
+      "bytes": 36991
+    },
+    "artifacts/aw01b/balanced_fpn_adamw/best.pt": {
+      "sha256": "96c44e68b1214f0b4770d18128eb2d7dd6847d100371c9e537c1d74e27e32e9e",
+      "bytes": 76032251
+    },
+    "artifacts/aw01b/balanced_fpn_adamw/history.json": {
+      "sha256": "3d40e8c6abae65d67857477bb0627f92917627c62deeaa77cfbcab2d8dcc1c0a",
+      "bytes": 41564
+    },
+    "artifacts/aw01b/balanced_frozen_sgd/best-validation.json": {
+      "sha256": "288a606194963a17e3c9aabe207968d7237ad9d0c2d1b0b78845240c0d7e9e32",
+      "bytes": 37484
+    },
+    "artifacts/aw01b/balanced_frozen_sgd/best.pt": {
+      "sha256": "b455a4c91321e6c18ec2ea01995ad897356390d881a06aecf10242b0cdb10d70",
+      "bytes": 76032251
+    },
+    "artifacts/aw01b/balanced_frozen_sgd/history.json": {
+      "sha256": "0c339ef598a884a956ccadf8fb1d6b139f087316012a836b5203ef4cf24110f1",
+      "bytes": 41626
+    },
+    "artifacts/aw01b/comparison/comparison.json": {
+      "sha256": "1c1426b5480e73d40200699d690a45d4050b3b321c3dc3ccfa5223203e8c1582",
+      "bytes": 166415
+    },
+    "artifacts/aw01b/comparison/selection-lock.json": {
+      "sha256": "bbb2aec09abb1ac0a4b991e833077d3337d1f2d24c0148fdf6160c2a3a970fff",
+      "bytes": 3526
+    },
+    "artifacts/aw01b/diagnosis/diagnosis.json": {
+      "sha256": "926b56a4294bea0bce4c409a01b8c2e33b8bdfdbdc7d87d2046b573db6afd41f",
+      "bytes": 15076
+    },
+    "artifacts/aw01b/expanded_frozen_sgd/best-validation.json": {
+      "sha256": "f805e047476e72a0a15cdfc853989fd39c5f555c3648391e57150b450fc0389e",
+      "bytes": 25645
+    },
+    "artifacts/aw01b/expanded_frozen_sgd/best.pt": {
+      "sha256": "bb92af37a670f52e8dcd502d00fbe8ef5633a7985d0533878ef16b3a56237c60",
+      "bytes": 76032187
+    },
+    "artifacts/aw01b/expanded_frozen_sgd/history.json": {
+      "sha256": "f8247cc5e06b2bdff38526452d6c33231da3031ed0e5c43fe53b46a638504d8a",
+      "bytes": 27357
+    },
+    "data/rareplanes/manifest.json": {
+      "sha256": "311cb70ee56a3765b86f539f5a075fb8deb4ad44ae14b3d04b4098c92f029138",
+      "bytes": 77244
+    },
+    "data/rareplanes-aw01b/manifest-balanced.json": {
+      "sha256": "77691871c48a7ac96b31c37bd33a226546ae3d73c37d643f4cb58cf00037a832",
+      "bytes": 752469
+    },
+    "data/rareplanes-aw01b/manifest.json": {
+      "sha256": "ae9562ac7974a981da1d3fbae4e6d07fc15685751b4b8e87a5f54d2687add736",
+      "bytes": 709216
+    },
+    "data/rareplanes-aw01b/protocol-balanced.json": {
+      "sha256": "ff8a5dd025f1c96100380f8b980f475fe3a130526191c53b4e563b689c03796d",
+      "bytes": 12581
+    },
+    "data/rareplanes-aw01b/protocol.json": {
+      "sha256": "9b59865e48c971b6bd97eb141dc5ab5529d1253a4afa93f08e0596ce8250b7fb",
+      "bytes": 12126
+    },
+    "data/rareplanes-aw01b/request.json": {
+      "sha256": "b4b391d2d899cd07a70847127d6b63f074abb20233f78d32099382abcf9dbbaf",
+      "bytes": 292
+    },
+    "docs/aw01b/annotation_audit.json": {
+      "sha256": "547f5aa61953e1784fd4808537ff52c9de88f3665b37aa440732b1f59aec2b81",
+      "bytes": 30524
+    },
+    "docs/aw01b/comparison.json": {
+      "sha256": "1c1426b5480e73d40200699d690a45d4050b3b321c3dc3ccfa5223203e8c1582",
+      "bytes": 166415
+    },
+    "docs/aw01b/dataset_manifest.json": {
+      "sha256": "77691871c48a7ac96b31c37bd33a226546ae3d73c37d643f4cb58cf00037a832",
+      "bytes": 752469
+    },
+    "docs/aw01b/diagnosis.json": {
+      "sha256": "926b56a4294bea0bce4c409a01b8c2e33b8bdfdbdc7d87d2046b573db6afd41f",
+      "bytes": 15076
+    },
+    "docs/aw01b/environment.json": {
+      "sha256": "8dc759d1420a887ff4f6c6949402f60ffd584d85ca25df36675b80d5b0af2ce2",
+      "bytes": 551
+    },
+    "docs/aw01b/protocol.json": {
+      "sha256": "ff8a5dd025f1c96100380f8b980f475fe3a130526191c53b4e563b689c03796d",
+      "bytes": 12581
+    },
+    "docs/aw01b/selection-lock.json": {
+      "sha256": "bbb2aec09abb1ac0a4b991e833077d3337d1f2d24c0148fdf6160c2a3a970fff",
+      "bytes": 3526
+    },
+    "docs/aw01b/training_histories.json": {
+      "sha256": "293f3b99fafe7e6cb3e9ab423c7413f895b86e5c3834e1c74c79b612b9a3d980",
+      "bytes": 88652
+    }
+  }
+}

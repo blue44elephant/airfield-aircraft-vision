@@ -1,0 +1,410 @@
+{
+  "selection_lock_sha256": "e84db559155fdfac3daac71db2f8977307bb7d838db6c53f6ae7571cb9681350",
+  "raw_predictions_sha256": "96db33650685b942d773224a5c6c8a477f18332b7e189abf3a16d5700507e6d7",
+  "selection": "Illustrative outcomes: largest matched-TP improvement, most remaining FP, most remaining FN; not an unbiased visual sample.",
+  "examples": [
+    {
+      "example": "success",
+      "image_id": "124_104001001F2A5700_tile_126.png",
+      "source": {
+        "scene_id": "124_104001001F2A5700",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2016-07-03T19:07:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/3/16 19:07",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.317879,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.317879,
+        "pan_sharpened_gsd_m": 0.3161516702360693,
+        "pixel_spacing_m": [
+          0.24556881249625342,
+          0.3161516702360693
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-124",
+        "capture_group": "104001001F2A5700",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/124_104001001F2A5700_tile_126.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "44403b704710e0001c8fb792f17d9044d8a9407597a058c4e929726ed97b0b82",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.847659450658883e-06,
+          0.0,
+          -120.1491695088654,
+          0.0,
+          -2.847659450658883e-06,
+          39.320352030797906
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "ce75bf89d2953595a2c8072055df1f9b40a7a56e79475885cf529b0a2ec41212",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=test; airfield=Truckee-Tahoe Airport"
+        ]
+      },
+      "aw01b": {
+        "image_id": "124_104001001F2A5700_tile_126.png",
+        "truth_count": 12,
+        "predicted_count": 1,
+        "matches": {
+          "true_positives": [],
+          "false_positives": [
+            0
+          ],
+          "false_negatives": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "ignored_predictions": []
+        },
+        "airfield": "rareplanes-location-124",
+        "source_sha256": "44403b704710e0001c8fb792f17d9044d8a9407597a058c4e929726ed97b0b82",
+        "timestamp_precision": "minute",
+        "timestamp_timezone_basis": "assumed_utc",
+        "label_state": "positive_labeled",
+        "geography": "USA"
+      },
+      "aw01c": {
+        "image_id": "124_104001001F2A5700_tile_126.png",
+        "truth_count": 12,
+        "predicted_count": 12,
+        "matches": {
+          "true_positives": [
+            {
+              "prediction": 0,
+              "truth": 11,
+              "iou": 0.8677950861271757
+            },
+            {
+              "prediction": 1,
+              "truth": 5,
+              "iou": 0.8238131369635466
+            },
+            {
+              "prediction": 2,
+              "truth": 8,
+              "iou": 0.7510222670163438
+            },
+            {
+              "prediction": 3,
+              "truth": 2,
+              "iou": 0.8789374378968758
+            },
+            {
+              "prediction": 4,
+              "truth": 3,
+              "iou": 0.8906460299472494
+            },
+            {
+              "prediction": 5,
+              "truth": 1,
+              "iou": 0.9103508988534723
+            },
+            {
+              "prediction": 6,
+              "truth": 4,
+              "iou": 0.6576982670555429
+            },
+            {
+              "prediction": 8,
+              "truth": 10,
+              "iou": 0.7623564044745299
+            },
+            {
+              "prediction": 10,
+              "truth": 0,
+              "iou": 0.9093706321394545
+            },
+            {
+              "prediction": 11,
+              "truth": 7,
+              "iou": 0.6645596973792418
+            }
+          ],
+          "false_positives": [
+            7,
+            9
+          ],
+          "false_negatives": [
+            6,
+            9
+          ],
+          "ignored_predictions": []
+        },
+        "airfield": "rareplanes-location-124",
+        "source_sha256": "44403b704710e0001c8fb792f17d9044d8a9407597a058c4e929726ed97b0b82",
+        "timestamp_precision": "minute",
+        "timestamp_timezone_basis": "assumed_utc",
+        "label_state": "positive_labeled",
+        "geography": "USA"
+      }
+    },
+    {
+      "example": "false-positives",
+      "image_id": "93_1040010048202D00_tile_1555.png",
+      "source": {
+        "scene_id": "93_1040010048202D00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2019-03-26T17:01:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "3/26/19 17:01",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.355084,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.355084,
+        "pan_sharpened_gsd_m": 0.34968066059376857,
+        "pixel_spacing_m": [
+          0.2727375925134874,
+          0.34968066059376857
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-93",
+        "capture_group": "1040010048202D00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/93_1040010048202D00_tile_1555.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "f25a3feab3101ccd9bdd5cd8882aa763c9f33ee380aa343c830caad71e040570",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.149820046223092e-06,
+          0.0,
+          -84.65170750962776,
+          0.0,
+          -3.149820046223092e-06,
+          39.03203674118368
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "582b24ecd6faa61e2ca3b53bd896a50ed349cb97758de106d1509753149e7a68",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=test; airfield=Cincinnati/Northern Kentucky International Airport"
+        ]
+      },
+      "aw01b": {
+        "image_id": "93_1040010048202D00_tile_1555.png",
+        "truth_count": 2,
+        "predicted_count": 3,
+        "matches": {
+          "true_positives": [
+            {
+              "prediction": 0,
+              "truth": 1,
+              "iou": 0.6322387087791423
+            },
+            {
+              "prediction": 1,
+              "truth": 0,
+              "iou": 0.5323499245426361
+            }
+          ],
+          "false_positives": [
+            2
+          ],
+          "false_negatives": [],
+          "ignored_predictions": []
+        },
+        "airfield": "rareplanes-location-93",
+        "source_sha256": "f25a3feab3101ccd9bdd5cd8882aa763c9f33ee380aa343c830caad71e040570",
+        "timestamp_precision": "minute",
+        "timestamp_timezone_basis": "assumed_utc",
+        "label_state": "positive_labeled",
+        "geography": "USA"
+      },
+      "aw01c": {
+        "image_id": "93_1040010048202D00_tile_1555.png",
+        "truth_count": 2,
+        "predicted_count": 6,
+        "matches": {
+          "true_positives": [
+            {
+              "prediction": 0,
+              "truth": 1,
+              "iou": 0.7638467186006218
+            },
+            {
+              "prediction": 1,
+              "truth": 0,
+              "iou": 0.5341042209965219
+            }
+          ],
+          "false_positives": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "false_negatives": [],
+          "ignored_predictions": []
+        },
+        "airfield": "rareplanes-location-93",
+        "source_sha256": "f25a3feab3101ccd9bdd5cd8882aa763c9f33ee380aa343c830caad71e040570",
+        "timestamp_precision": "minute",
+        "timestamp_timezone_basis": "assumed_utc",
+        "label_state": "positive_labeled",
+        "geography": "USA"
+      }
+    },
+    {
+      "example": "missed-aircraft",
+      "image_id": "119_104001003EA38900_tile_71.png",
+      "source": {
+        "scene_id": "119_104001003EA38900",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-06-27T19:41:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "6/27/18 19:41",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.327369,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.327369,
+        "pan_sharpened_gsd_m": 0.3247971854742056,
+        "pixel_spacing_m": [
+          0.2295557298781862,
+          0.3247971854742056
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-119",
+        "capture_group": "104001003EA38900",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/119_104001003EA38900_tile_71.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "b62bdd291db2c5727a6c05b09b9455caadd9ca84f88e2d26f950c60ab4b6e832",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.9225190576658487e-06,
+          0.0,
+          -122.58919192092802,
+          0.0,
+          -2.9225190576658487e-06,
+          45.2187844752551
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "ee89d48746a9263c6e1aa7347729f36f69e519d6ee04823ade7eb3c24b3f5aad",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=test; airfield=Portland-Mulino Airport"
+        ]
+      },
+      "aw01b": {
+        "image_id": "119_104001003EA38900_tile_71.png",
+        "truth_count": 17,
+        "predicted_count": 0,
+        "matches": {
+          "true_positives": [],
+          "false_positives": [],
+          "false_negatives": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "ignored_predictions": []
+        },
+        "airfield": "rareplanes-location-119",
+        "source_sha256": "b62bdd291db2c5727a6c05b09b9455caadd9ca84f88e2d26f950c60ab4b6e832",
+        "timestamp_precision": "minute",
+        "timestamp_timezone_basis": "assumed_utc",
+        "label_state": "positive_labeled",
+        "geography": "USA"
+      },
+      "aw01c": {
+        "image_id": "119_104001003EA38900_tile_71.png",
+        "truth_count": 17,
+        "predicted_count": 6,
+        "matches": {
+          "true_positives": [
+            {
+              "prediction": 0,
+              "truth": 2,
+              "iou": 0.870170960542392
+            },
+            {
+              "prediction": 2,
+              "truth": 13,
+              "iou": 0.5728372291173626
+            },
+            {
+              "prediction": 3,
+              "truth": 12,
+              "iou": 0.8360803642468605
+            },
+            {
+              "prediction": 4,
+              "truth": 5,
+              "iou": 0.6850340411801019
+            },
+            {
+              "prediction": 5,
+              "truth": 11,
+              "iou": 0.6356380773610044
+            }
+          ],
+          "false_positives": [
+            1
+          ],
+          "false_negatives": [
+            0,
+            1,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            14,
+            15,
+            16
+          ],
+          "ignored_predictions": []
+        },
+        "airfield": "rareplanes-location-119",
+        "source_sha256": "b62bdd291db2c5727a6c05b09b9455caadd9ca84f88e2d26f950c60ab4b6e832",
+        "timestamp_precision": "minute",
+        "timestamp_timezone_basis": "assumed_utc",
+        "label_state": "positive_labeled",
+        "geography": "USA"
+      }
+    }
+  ]
+}

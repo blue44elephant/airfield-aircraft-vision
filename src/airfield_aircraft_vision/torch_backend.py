@@ -63,13 +63,15 @@ class TorchDetector:
         checkpoint = Path(checkpoint)
         payload = torch.load(checkpoint, map_location="cpu", weights_only=True)
         self.manifest = payload["manifest"]
+        from .architecture_backend import SUPPORTED_ARCHITECTURES, build_architecture
+
         if (
-            self.manifest["architecture"] != ARCHITECTURE
+            self.manifest["architecture"] not in SUPPORTED_ARCHITECTURES
             or self.manifest["preprocessing"] != "native-rgb-v1"
         ):
             raise ValueError("incompatible checkpoint architecture/preprocessing")
         self.manifest = dict(self.manifest, checkpoint_sha256=sha256_file(checkpoint))
-        self.model = build_model()
+        self.model = build_architecture(self.manifest["architecture"])
         self.model.load_state_dict(payload["state_dict"])
         floor = (
             self.manifest.get("candidate_score_floor", 0.05)

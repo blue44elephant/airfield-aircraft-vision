@@ -1,0 +1,65 @@
+{
+  "purpose": "random weights only for bounded architecture CPU/shape feasibility, NOT performance",
+  "threads": 4,
+  "batch_size": 1,
+  "width": 512,
+  "height": 512,
+  "torch": "2.10.0+cpu",
+  "torchvision": "0.25.0+cpu",
+  "weights_url": "https://download.pytorch.org/models/fasterrcnn_resnet50_fpn_coco-258fb6c6.pth",
+  "initial_rss_mib": 284.2734375,
+  "available_memory_mib": 1014.91015625,
+  "construction_seconds": 0.4573554000016884,
+  "backbone_seconds": 0.8636896999996679,
+  "features": {
+    "0": [
+      1,
+      256,
+      128,
+      128
+    ],
+    "1": [
+      1,
+      256,
+      64,
+      64
+    ],
+    "2": [
+      1,
+      256,
+      32,
+      32
+    ],
+    "3": [
+      1,
+      256,
+      16,
+      16
+    ],
+    "pool": [
+      1,
+      256,
+      8,
+      8
+    ]
+  },
+  "strides": {
+    "0": 4.0,
+    "1": 8.0,
+    "2": 16.0,
+    "3": 32.0,
+    "pool": 64.0
+  },
+  "inference_seconds": 1.3615410999991582,
+  "frozen_training_step_seconds": 1.2419718999990437,
+  "losses": {
+    "loss_classifier": 0.22672131657600403,
+    "loss_box_reg": 0.05368752032518387,
+    "loss_objectness": 0.7740389108657837,
+    "loss_rpn_box_reg": 0.1405750811100006
+  },
+  "final_rss_mib": 681.359375,
+  "peak_working_set_mib": 690.890625,
+  "parameters": 41352281,
+  "trainable_parameters": 14499865
+}

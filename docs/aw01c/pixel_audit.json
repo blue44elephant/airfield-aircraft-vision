@@ -1,0 +1,488 @@
+{
+  "milestone": "AW-01C train/validation native pixel audit",
+  "scope": "Read-only source-pixel audit of train/validation only. No independent test rasters or label statistics inspected. No source imagery, masks, metadata, manifests or models modified.",
+  "manifest_path": "data/rareplanes-aw01c/manifest-with-negatives.json",
+  "manifest_sha256": "43ae21e69afe45da46d96f6d34b5c41362bab2ef16396a3a5cefdbc76e8c425f",
+  "method": "Read native rasterio RGB and dataset_mask without out_shape, resizing or reprojection; compare decoded RGB values with PIL; check declared dimensions, dtype, RGB interpretation, CRS and affine. Existing source-checksum records retained; no repeated whole-source hashing.",
+  "summary": {
+    "train": {
+      "images": 467,
+      "positive_images": 452,
+      "reviewed_backgrounds": 15,
+      "gt_boxes": 2150,
+      "entire_nodata_images": 0,
+      "images_with_any_nodata": 13,
+      "minimum_valid_fraction": 0.1721038818359375,
+      "mean_valid_fraction": 0.9882793222300756,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 7,
+      "dimension_counts": {
+        "512x512": 452,
+        "256x256": 15
+      },
+      "failed_input_checks": 0,
+      "total_native_pixels": 119472128,
+      "valid_native_pixels": 118037268,
+      "pixel_weighted_valid_fraction": 0.987990002153473,
+      "images_below_25percent_valid": 2,
+      "images_below_50percent_valid": 4
+    },
+    "validation": {
+      "images": 52,
+      "positive_images": 46,
+      "reviewed_backgrounds": 6,
+      "gt_boxes": 147,
+      "entire_nodata_images": 0,
+      "images_with_any_nodata": 2,
+      "minimum_valid_fraction": 0.634765625,
+      "mean_valid_fraction": 0.9859525240384616,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "dimension_counts": {
+        "512x512": 46,
+        "256x256": 6
+      },
+      "failed_input_checks": 0,
+      "total_native_pixels": 12451840,
+      "valid_native_pixels": 12260352,
+      "pixel_weighted_valid_fraction": 0.9846217105263158,
+      "images_below_25percent_valid": 0,
+      "images_below_50percent_valid": 0
+    }
+  },
+  "critical_gt_records": [],
+  "input_failures": [],
+  "partial_nodata_images": [
+    {
+      "image_id": "105_104001002F92BB00_tile_56.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.69140625,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "db294c6f4620846e2302e1772068831599eeff033b35640f0cbc865fdc98a8ec",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "105_104001003141CC00_tile_56.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.689453125,
+      "gt_boxes": 2,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "e3bcdc6529c8777cf84ec516601a5f489c58aa9bf2a0ffafe69c564c8b7798bd",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "108_1040010049B46C00_tile_35.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.970703125,
+      "gt_boxes": 41,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "60246600c339f06b8c4acfb3f2a3f004afb85a98e8009d00f6abcca61de5c591",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "106_10400100413CDF00_tile_46.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.8496856689453125,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "f2674ac9e268fc3d7cf42f70464c99ef06ebc580f15474629dbdefaebc198892",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_31.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.1721038818359375,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "a5e7139c9fc5505453048380b58a00f5dfa1cc7fd3d2fb588c90a723eb8ce040",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_36.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.22625732421875,
+      "gt_boxes": 6,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 4,
+      "gt_bbox_min_valid_fraction": 0.6409529211571185,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "d1e3a8818335384e0c2ce0d6e8e4c07a937e8f82555ac7b5f66defef99746b83",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_41.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.2789459228515625,
+      "gt_boxes": 5,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 2,
+      "gt_bbox_min_valid_fraction": 0.6537955243527863,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "b1088835df30cf0cffbe33b07e04e480b6a9dac12a63fbf0bb46225a3e944704",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "3_10400100094C6800_tile_86.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.50390625,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "7911eccf98239b7c941f87ee7ecb52c7ff647e38425c676afc5a4188eacf494a",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_56.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.44281005859375,
+      "gt_boxes": 3,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 1,
+      "gt_bbox_min_valid_fraction": 0.7857142857142857,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "01e0b0680498f91ea42b39cffcc59856106b2fc66a9f0eed281d55ce05b36782",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_115.png",
+      "split": "validation",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.634765625,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "d9fb5ed2fce0cf0ed4af8fcf2c700cb88ffe84c976a36829d6d861a3b0204149",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_113.png",
+      "split": "validation",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.634765625,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "877ff75417db5182a89319c9394b317bae7c1d99e655ca3d236d94929155481a",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "28_1040010041747E00_tile_76.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.5546875,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "8106b04d9c53aa66f7d88c65c836565922a78b58312d8b1bfc018381d4da999d",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "9_1040010008607D00_tile_64.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.533203125,
+      "gt_boxes": 5,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "e292b39c83751bffb834f2b1feca8e707965602f6b0ae0635d4c6184b9d50883",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "9_104001001915BB00_tile_72.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.69921875,
+      "gt_boxes": 6,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "bcf04e9ad18b86cc77de1889565b25f176cfa4bfa31d37b31fd4d8ba7a7bf505",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    },
+    {
+      "image_id": "9_10400100474E7400_tile_62.png",
+      "split": "train",
+      "is_reviewed_background": false,
+      "width": 512,
+      "height": 512,
+      "valid_fraction": 0.9140625,
+      "gt_boxes": 1,
+      "gt_centres_invalid": 0,
+      "gt_boxes_completely_nodata": 0,
+      "gt_boxes_with_any_nodata": 0,
+      "gt_bbox_min_valid_fraction": 1.0,
+      "nodata_values": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_sidecar_checksum_recorded": true,
+      "source_hash_recorded": "0bbdbacca951ffc1bedcfd0fbbeab1ab93064a5598651fe10da400f731fd615d",
+      "checks": {
+        "uint8_three_channel": true,
+        "rgb_channel_order": true,
+        "native_dimensions": true,
+        "crs_matches": true,
+        "affine_matches": true,
+        "rasterio_equals_pil_rgb": true
+      }
+    }
+  ],
+  "all_sources_checked": 519,
+  "all_declared_input_checks_passed": true,
+  "model_input_policy": {
+    "training": "NativeRaster replaces invalid source pixels by zero and pads smaller windows to512 with zeros; no resizing. Original GT boxes remain unchanged. Fully invalid source inputs rejected.",
+    "inference": "Same native-mask zero fill and padding; fully invalid tiles skipped. Predicted boxes with centers on nodata/padding are rejected; valid-area-only warning emitted for partial nodata.",
+    "normalization": "uint8 RGB converted to float0..1 once, then ImageNet channel normalization inside detector.",
+    "limitation": "Mask-valid pixels do not prove usable optical detail, correct aircraft labels, or absence of cloud/occlusion. Bounding-box regions naturally include surrounding background; partial nodata does not alone invalidate an aircraft."
+  },
+  "elapsed_seconds": 23.930409900000086
+}

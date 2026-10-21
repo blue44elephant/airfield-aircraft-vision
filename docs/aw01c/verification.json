@@ -1,0 +1,33 @@
+{
+  "branch": "feat/aw-01c-generalization",
+  "head": "137cdf6",
+  "tests": {
+    "tests": 202,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 12.781
+  },
+  "git_diff_check": "passed",
+  "cli_smoke": {
+    "image_id": "36_104001003E76E200_tile_59.png",
+    "cohort": "validation",
+    "total_count": 1,
+    "preprocessing": {
+      "profile": "native-rgb-v1",
+      "tile_size": 512,
+      "overlap": 128,
+      "resize": false,
+      "reprojection": false,
+      "confidence": 0.7,
+      "nms_iou": 0.4,
+      "candidate_floor": 0.005,
+      "padding": "zeros; candidates in padding excluded"
+    },
+    "checkpoint_sha256": "d2aecd3624648981f35def1fff7bb36789f9635546f4f848c719c48e647eda42",
+    "architecture": "fasterrcnn_resnet50_fpn"
+  },
+  "test_policy": "Frozen model/threshold; exactly one collection per model per cohort. No tuning after independent results.",
+  "original_preservation": "28 original artifacts and 1153 prepared image/sidecar hashes matched.",
+  "no_git_write": true
+}

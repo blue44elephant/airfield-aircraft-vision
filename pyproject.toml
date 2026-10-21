@@ -19,6 +19,7 @@ aircraft-vision = "airfield_aircraft_vision.cli:main"
 
 [project.optional-dependencies]
 vision = ["torch==2.10.0", "torchvision==0.25.0", "numpy>=1.26,<3", "Pillow>=10,<13", "rasterio>=1.4,<2"]
+experiments = ["psutil>=7.2,<8"]
 dev = [
   "pytest>=8",
 ]

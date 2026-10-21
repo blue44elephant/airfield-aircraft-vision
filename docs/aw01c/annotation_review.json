@@ -1,0 +1,1509 @@
+{
+  "milestone": "AW-01C training-only annotation and background review",
+  "scope": "Only training annotation records were analyzed; no new independent test images or label statistics were inspected. No source labels, imagery or frozen manifests were modified.",
+  "official_guide": "https://www.iqt.org/library/rareplanes-public-user-guide",
+  "official_rich_metadata_url": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/metadata_annotations/RarePlanes_Train_Coco_Annotations_tiled.json",
+  "rich_metadata_local_path": "data/rareplanes-aw01c/metadata/RarePlanes_Train_Coco_Annotations_tiled.json",
+  "rich_metadata_bytes": 33539381,
+  "rich_metadata_sha256": "d51f4fc97422934c8f3846207d6ec453dfbb69ae0432537731104a8f0e4c1540",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+  "schema_contract": {
+    "image_records": 5815,
+    "annotation_records": 18393,
+    "verified_against": "data/rareplanes-aw01b/metadata/instances_train_aircraft.json",
+    "all_image_id_and_name_pairs_match": 5815,
+    "all_annotation_id_image_id_bbox_triples_match": 18393,
+    "bbox": "native-pixel XYWH",
+    "partialDec": "Published fraction of the original aircraft diamond visible after tile clipping; not estimated sensor quality or physical aircraft size.",
+    "truncated": "0/1 tiled clipping indicator",
+    "recommended_policy": "Official guide recommends removing partialDec<0.25; any future training-ignore experiment must preserve ignored exclusion regions and existing evaluation labels."
+  },
+  "cohorts": {
+    "aw01b_preserved_baseline": {
+      "manifest_path": "data/rareplanes-aw01b/manifest-balanced.json",
+      "manifest_sha256": "77691871c48a7ac96b31c37bd33a226546ae3d73c37d643f4cb58cf00037a832",
+      "positive_training_tiles": 174,
+      "airfield_groups": 16,
+      "capture_groups": 40,
+      "annotations": 576,
+      "manifest_accepted_boxes": 576,
+      "manifest_ignored_boxes": 0,
+      "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 576,
+      "visible_fraction_min": 0.0444012345655268,
+      "visible_fraction_median": 1.0,
+      "visible_fraction_bins": {
+        "full_1.0": 445,
+        "0.5_to_below1": 87,
+        "0.25_to_below0.5": 32,
+        "below_0.25": 12
+      },
+      "below_0_25": 12,
+      "below_0_25_fraction": 0.020833333333333332,
+      "below_0_5": 44,
+      "truncated": 131,
+      "bbox_pixel_area_bins": {
+        "small_lt32_squared": 273,
+        "large_ge96_squared": 32,
+        "medium_32_to96_squared": 271
+      },
+      "below0_25_bbox_pixel_area_bins": {
+        "medium_32_to96_squared": 12
+      },
+      "severe_fragment_examples": [
+        {
+          "image_id": "31_104001002809DA00_tile_445.png",
+          "annotation_id": 6969,
+          "partialDec": 0.0444012345655268,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            408.8739500939846,
+            489.4627046948299,
+            63.86938267573714,
+            22.53729530517012
+          ],
+          "airfield_group": "rareplanes-location-31"
+        },
+        {
+          "image_id": "18_10400100211BDD00_tile_3596.png",
+          "annotation_id": 2373,
+          "partialDec": 0.10329083007568476,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            0.0,
+            292.0236939564347,
+            68.17146074958146,
+            89.48877761885524
+          ],
+          "airfield_group": "rareplanes-location-18"
+        },
+        {
+          "image_id": "23_104001001E51BE00_tile_1267.png",
+          "annotation_id": 13919,
+          "partialDec": 0.13132002827239866,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            189.62766423542053,
+            474.52942091599107,
+            156.0913329841569,
+            37.47057908400893
+          ],
+          "airfield_group": "rareplanes-location-23"
+        },
+        {
+          "image_id": "31_104001002809DA00_tile_245.png",
+          "annotation_id": 14761,
+          "partialDec": 0.16926810861856173,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            271.78388583287597,
+            0.0,
+            57.561474930495024,
+            26.601688839495182
+          ],
+          "airfield_group": "rareplanes-location-31"
+        },
+        {
+          "image_id": "31_104001002809DA00_tile_245.png",
+          "annotation_id": 14760,
+          "partialDec": 0.17900374935809785,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            159.43208665028214,
+            0.0,
+            59.73887924104929,
+            27.293419297784567
+          ],
+          "airfield_group": "rareplanes-location-31"
+        },
+        {
+          "image_id": "31_104001002809DA00_tile_212.png",
+          "annotation_id": 5451,
+          "partialDec": 0.17986407628035445,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            235.6262422800064,
+            0.0,
+            60.02014107629657,
+            27.191694230772555
+          ],
+          "airfield_group": "rareplanes-location-31"
+        },
+        {
+          "image_id": "31_104001002809DA00_tile_212.png",
+          "annotation_id": 5453,
+          "partialDec": 0.19716820591290296,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            456.2005659379065,
+            0.0,
+            55.799434062093496,
+            29.511025772430003
+          ],
+          "airfield_group": "rareplanes-location-31"
+        },
+        {
+          "image_id": "31_104001002809DA00_tile_245.png",
+          "annotation_id": 14759,
+          "partialDec": 0.20285312569261313,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            47.200565937906504,
+            0.0,
+            62.91396636143327,
+            29.511025772430003
+          ],
+          "airfield_group": "rareplanes-location-31"
+        }
+      ]
+    },
+    "aw01c_expanded_positive_training": {
+      "manifest_path": "data/rareplanes-aw01c/manifest.json",
+      "manifest_sha256": "f0075fab905d8feb3bd9dd153b8357f8444ee09ba025c005da40b8eeb99d593e",
+      "positive_training_tiles": 452,
+      "airfield_groups": 32,
+      "capture_groups": 68,
+      "annotations": 2150,
+      "manifest_accepted_boxes": 2150,
+      "manifest_ignored_boxes": 0,
+      "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 2150,
+      "visible_fraction_min": 0.0444012345655268,
+      "visible_fraction_median": 1.0,
+      "visible_fraction_bins": {
+        "full_1.0": 1725,
+        "0.5_to_below1": 271,
+        "0.25_to_below0.5": 131,
+        "below_0.25": 23
+      },
+      "below_0_25": 23,
+      "below_0_25_fraction": 0.010697674418604652,
+      "below_0_5": 154,
+      "truncated": 425,
+      "bbox_pixel_area_bins": {
+        "medium_32_to96_squared": 772,
+        "small_lt32_squared": 1307,
+        "large_ge96_squared": 71
+      },
+      "below0_25_bbox_pixel_area_bins": {
+        "medium_32_to96_squared": 23
+      },
+      "severe_fragment_examples": [
+        {
+          "image_id": "31_104001002809DA00_tile_445.png",
+          "annotation_id": 6969,
+          "partialDec": 0.0444012345655268,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            408.8739500939846,
+            489.4627046948299,
+            63.86938267573714,
+            22.53729530517012
+          ],
+          "airfield_group": "rareplanes-location-31"
+        },
+        {
+          "image_id": "82_10400100435D3500_tile_1147.png",
+          "annotation_id": 15486,
+          "partialDec": 0.05106050560407169,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            0.0,
+            452.246858144179,
+            38.20144288614392,
+            59.75314185768366
+          ],
+          "airfield_group": "rareplanes-location-82"
+        },
+        {
+          "image_id": "82_10400100435D3500_tile_524.png",
+          "annotation_id": 15090,
+          "partialDec": 0.08573700651807194,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            214.14350445196033,
+            0.0,
+            82.87154044955969,
+            23.222776560112834
+          ],
+          "airfield_group": "rareplanes-location-82"
+        },
+        {
+          "image_id": "18_10400100211BDD00_tile_3596.png",
+          "annotation_id": 2373,
+          "partialDec": 0.10329083007568476,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            0.0,
+            292.0236939564347,
+            68.17146074958146,
+            89.48877761885524
+          ],
+          "airfield_group": "rareplanes-location-18"
+        },
+        {
+          "image_id": "18_1040050010DC4900_tile_3086.png",
+          "annotation_id": 15631,
+          "partialDec": 0.10648486055228233,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            0.0,
+            261.6910068690777,
+            20.909532879013568,
+            90.97113385237753
+          ],
+          "airfield_group": "rareplanes-location-18"
+        },
+        {
+          "image_id": "23_104001001E51BE00_tile_1267.png",
+          "annotation_id": 13919,
+          "partialDec": 0.13132002827239866,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            189.62766423542053,
+            474.52942091599107,
+            156.0913329841569,
+            37.47057908400893
+          ],
+          "airfield_group": "rareplanes-location-23"
+        },
+        {
+          "image_id": "82_10400100435D3500_tile_1102.png",
+          "annotation_id": 8288,
+          "partialDec": 0.1317611405058852,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            466.0336569286883,
+            472.9234243500978,
+            45.96634306758642,
+            39.07657565176487
+          ],
+          "airfield_group": "rareplanes-location-82"
+        },
+        {
+          "image_id": "82_10400100435D3500_tile_1147.png",
+          "annotation_id": 15488,
+          "partialDec": 0.15888538845118078,
+          "truncated": 1.0,
+          "bbox_xywh": [
+            206.12955599278212,
+            465.7270676475018,
+            84.40059984102845,
+            46.27293235436082
+          ],
+          "airfield_group": "rareplanes-location-82"
+        }
+      ],
+      "per_airfield": {
+        "rareplanes-location-1": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 56,
+          "manifest_accepted_boxes": 56,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 56,
+          "visible_fraction_min": 0.26426891560010396,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 44,
+            "0.5_to_below1": 7,
+            "0.25_to_below0.5": 5
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 5,
+          "truncated": 12,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 26,
+            "small_lt32_squared": 26,
+            "large_ge96_squared": 4
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-102": {
+          "positive_training_tiles": 14,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 60,
+          "manifest_accepted_boxes": 60,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 60,
+          "visible_fraction_min": 0.37833369734489625,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 55,
+            "0.25_to_below0.5": 1,
+            "0.5_to_below1": 4
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 1,
+          "truncated": 5,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 53,
+            "medium_32_to96_squared": 7
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-105": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 3,
+          "annotations": 34,
+          "manifest_accepted_boxes": 34,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 34,
+          "visible_fraction_min": 0.37590881067366216,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 27,
+            "0.5_to_below1": 4,
+            "0.25_to_below0.5": 3
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 3,
+          "truncated": 7,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 30,
+            "small_lt32_squared": 4
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-109": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 32,
+          "manifest_accepted_boxes": 32,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 32,
+          "visible_fraction_min": 0.40252618036527615,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.25_to_below0.5": 1,
+            "full_1.0": 28,
+            "0.5_to_below1": 3
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 1,
+          "truncated": 4,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 31,
+            "medium_32_to96_squared": 1
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-114": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 3,
+          "annotations": 31,
+          "manifest_accepted_boxes": 31,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 31,
+          "visible_fraction_min": 0.24483439488054876,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 17,
+            "0.5_to_below1": 11,
+            "0.25_to_below0.5": 2,
+            "below_0.25": 1
+          },
+          "below_0_25": 1,
+          "below_0_25_fraction": 0.03225806451612903,
+          "below_0_5": 3,
+          "truncated": 14,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 19,
+            "small_lt32_squared": 10,
+            "large_ge96_squared": 2
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 1
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "114_104001000A497900_tile_632.png",
+              "annotation_id": 6004,
+              "partialDec": 0.24483439488054876,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                253.66076524183154,
+                483.7350111566484,
+                112.59255396574736,
+                28.264988845214248
+              ],
+              "airfield_group": "rareplanes-location-114"
+            }
+          ]
+        },
+        "rareplanes-location-115": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 93,
+          "manifest_accepted_boxes": 93,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 93,
+          "visible_fraction_min": 0.26315662938238166,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.25_to_below0.5": 8,
+            "full_1.0": 77,
+            "0.5_to_below1": 8
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 8,
+          "truncated": 16,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 60,
+            "medium_32_to96_squared": 33
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-117": {
+          "positive_training_tiles": 12,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 18,
+          "manifest_accepted_boxes": 18,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 18,
+          "visible_fraction_min": 0.27446313935036043,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 16,
+            "0.25_to_below0.5": 2
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 2,
+          "truncated": 2,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 10,
+            "small_lt32_squared": 8
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-118": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 4,
+          "annotations": 43,
+          "manifest_accepted_boxes": 43,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 43,
+          "visible_fraction_min": 0.21067964339668802,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 27,
+            "below_0.25": 1,
+            "0.25_to_below0.5": 7,
+            "0.5_to_below1": 8
+          },
+          "below_0_25": 1,
+          "below_0_25_fraction": 0.023255813953488372,
+          "below_0_5": 8,
+          "truncated": 16,
+          "bbox_pixel_area_bins": {
+            "large_ge96_squared": 7,
+            "medium_32_to96_squared": 32,
+            "small_lt32_squared": 4
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 1
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "118_1040010023C25400_tile_359.png",
+              "annotation_id": 14191,
+              "partialDec": 0.21067964339668802,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                363.48428631573915,
+                464.15658572502434,
+                104.91252426058054,
+                47.84341427497566
+              ],
+              "airfield_group": "rareplanes-location-118"
+            }
+          ]
+        },
+        "rareplanes-location-120": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 182,
+          "manifest_accepted_boxes": 182,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 182,
+          "visible_fraction_min": 0.2485133868409319,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 150,
+            "0.25_to_below0.5": 9,
+            "0.5_to_below1": 22,
+            "below_0.25": 1
+          },
+          "below_0_25": 1,
+          "below_0_25_fraction": 0.005494505494505495,
+          "below_0_5": 10,
+          "truncated": 32,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 120,
+            "medium_32_to96_squared": 59,
+            "large_ge96_squared": 3
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 1
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "120_1040010044D1B900_tile_98.png",
+              "annotation_id": 13825,
+              "partialDec": 0.2485133868409319,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                0.0,
+                351.5314459167421,
+                42.135002344846725,
+                72.16702311858535
+              ],
+              "airfield_group": "rareplanes-location-120"
+            }
+          ]
+        },
+        "rareplanes-location-123": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 137,
+          "manifest_accepted_boxes": 137,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 137,
+          "visible_fraction_min": 0.25483883597313634,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.25_to_below0.5": 8,
+            "full_1.0": 112,
+            "0.5_to_below1": 17
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 8,
+          "truncated": 25,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 126,
+            "medium_32_to96_squared": 11
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-18": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 25,
+          "manifest_accepted_boxes": 25,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 25,
+          "visible_fraction_min": 0.10329083007568476,
+          "visible_fraction_median": 0.6719437495101228,
+          "visible_fraction_bins": {
+            "0.5_to_below1": 10,
+            "full_1.0": 8,
+            "0.25_to_below0.5": 4,
+            "below_0.25": 3
+          },
+          "below_0_25": 3,
+          "below_0_25_fraction": 0.12,
+          "below_0_5": 7,
+          "truncated": 17,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 11,
+            "large_ge96_squared": 14
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 3
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "18_10400100211BDD00_tile_3596.png",
+              "annotation_id": 2373,
+              "partialDec": 0.10329083007568476,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                0.0,
+                292.0236939564347,
+                68.17146074958146,
+                89.48877761885524
+              ],
+              "airfield_group": "rareplanes-location-18"
+            },
+            {
+              "image_id": "18_1040050010DC4900_tile_3086.png",
+              "annotation_id": 15631,
+              "partialDec": 0.10648486055228233,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                0.0,
+                261.6910068690777,
+                20.909532879013568,
+                90.97113385237753
+              ],
+              "airfield_group": "rareplanes-location-18"
+            },
+            {
+              "image_id": "18_1040050010DC4900_tile_3730.png",
+              "annotation_id": 5381,
+              "partialDec": 0.20970156218316824,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                244.6265485160984,
+                0.0,
+                103.38658890360966,
+                19.80032796598971
+              ],
+              "airfield_group": "rareplanes-location-18"
+            }
+          ]
+        },
+        "rareplanes-location-19": {
+          "positive_training_tiles": 10,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 27,
+          "manifest_accepted_boxes": 27,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 27,
+          "visible_fraction_min": 0.5886091635765152,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.5_to_below1": 2,
+            "full_1.0": 25
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 0,
+          "truncated": 2,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 23,
+            "medium_32_to96_squared": 4
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-2": {
+          "positive_training_tiles": 8,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 47,
+          "manifest_accepted_boxes": 47,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 47,
+          "visible_fraction_min": 0.4123146702255062,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 38,
+            "0.5_to_below1": 5,
+            "0.25_to_below0.5": 4
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 4,
+          "truncated": 9,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 25,
+            "small_lt32_squared": 22
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-21": {
+          "positive_training_tiles": 10,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 22,
+          "manifest_accepted_boxes": 22,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 22,
+          "visible_fraction_min": 0.4945053099134801,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.5_to_below1": 5,
+            "full_1.0": 16,
+            "0.25_to_below0.5": 1
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 1,
+          "truncated": 6,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 18,
+            "large_ge96_squared": 1,
+            "small_lt32_squared": 3
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-23": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 26,
+          "manifest_accepted_boxes": 26,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 26,
+          "visible_fraction_min": 0.13132002827239866,
+          "visible_fraction_median": 0.9024404303996872,
+          "visible_fraction_bins": {
+            "0.5_to_below1": 13,
+            "full_1.0": 9,
+            "0.25_to_below0.5": 2,
+            "below_0.25": 2
+          },
+          "below_0_25": 2,
+          "below_0_25_fraction": 0.07692307692307693,
+          "below_0_5": 4,
+          "truncated": 17,
+          "bbox_pixel_area_bins": {
+            "large_ge96_squared": 20,
+            "medium_32_to96_squared": 6
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 2
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "23_104001001E51BE00_tile_1267.png",
+              "annotation_id": 13919,
+              "partialDec": 0.13132002827239866,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                189.62766423542053,
+                474.52942091599107,
+                156.0913329841569,
+                37.47057908400893
+              ],
+              "airfield_group": "rareplanes-location-23"
+            },
+            {
+              "image_id": "23_104001001E51BE00_tile_1837.png",
+              "annotation_id": 5296,
+              "partialDec": 0.17942688604997833,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                0.0,
+                484.1800100840628,
+                74.26977233495563,
+                27.819989915937185
+              ],
+              "airfield_group": "rareplanes-location-23"
+            }
+          ]
+        },
+        "rareplanes-location-24": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 9,
+          "annotations": 86,
+          "manifest_accepted_boxes": 86,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 86,
+          "visible_fraction_min": 0.26348052164045616,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 73,
+            "0.5_to_below1": 9,
+            "0.25_to_below0.5": 4
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 4,
+          "truncated": 13,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 56,
+            "medium_32_to96_squared": 28,
+            "large_ge96_squared": 2
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-29": {
+          "positive_training_tiles": 6,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 34,
+          "manifest_accepted_boxes": 34,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 34,
+          "visible_fraction_min": 0.2652943895562082,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 27,
+            "0.5_to_below1": 6,
+            "0.25_to_below0.5": 1
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 1,
+          "truncated": 7,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 26,
+            "medium_32_to96_squared": 8
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-3": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 4,
+          "annotations": 74,
+          "manifest_accepted_boxes": 74,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 74,
+          "visible_fraction_min": 0.25475614103802346,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.5_to_below1": 6,
+            "0.25_to_below0.5": 4,
+            "full_1.0": 64
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 4,
+          "truncated": 10,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 35,
+            "small_lt32_squared": 39
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-30": {
+          "positive_training_tiles": 13,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 43,
+          "manifest_accepted_boxes": 43,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 43,
+          "visible_fraction_min": 0.26734262291057304,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 35,
+            "0.5_to_below1": 6,
+            "0.25_to_below0.5": 2
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 2,
+          "truncated": 8,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 23,
+            "small_lt32_squared": 20
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-31": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 65,
+          "manifest_accepted_boxes": 65,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 65,
+          "visible_fraction_min": 0.0444012345655268,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 41,
+            "below_0.25": 8,
+            "0.5_to_below1": 13,
+            "0.25_to_below0.5": 3
+          },
+          "below_0_25": 8,
+          "below_0_25_fraction": 0.12307692307692308,
+          "below_0_5": 11,
+          "truncated": 24,
+          "bbox_pixel_area_bins": {
+            "large_ge96_squared": 9,
+            "medium_32_to96_squared": 54,
+            "small_lt32_squared": 2
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 8
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "31_104001002809DA00_tile_445.png",
+              "annotation_id": 6969,
+              "partialDec": 0.0444012345655268,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                408.8739500939846,
+                489.4627046948299,
+                63.86938267573714,
+                22.53729530517012
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_245.png",
+              "annotation_id": 14761,
+              "partialDec": 0.16926810861856173,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                271.78388583287597,
+                0.0,
+                57.561474930495024,
+                26.601688839495182
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_245.png",
+              "annotation_id": 14760,
+              "partialDec": 0.17900374935809785,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                159.43208665028214,
+                0.0,
+                59.73887924104929,
+                27.293419297784567
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_212.png",
+              "annotation_id": 5451,
+              "partialDec": 0.17986407628035445,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                235.6262422800064,
+                0.0,
+                60.02014107629657,
+                27.191694230772555
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_212.png",
+              "annotation_id": 5453,
+              "partialDec": 0.19716820591290296,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                456.2005659379065,
+                0.0,
+                55.799434062093496,
+                29.511025772430003
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_245.png",
+              "annotation_id": 14759,
+              "partialDec": 0.20285312569261313,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                47.200565937906504,
+                0.0,
+                62.91396636143327,
+                29.511025772430003
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_212.png",
+              "annotation_id": 5452,
+              "partialDec": 0.2039005116122162,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                344.6080740466714,
+                0.0,
+                65.61151841282845,
+                29.30757563561201
+              ],
+              "airfield_group": "rareplanes-location-31"
+            },
+            {
+              "image_id": "31_104001002809DA00_tile_343.png",
+              "annotation_id": 527,
+              "partialDec": 0.2404379936893535,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                493.9501316435635,
+                149.15700730402023,
+                18.04986835643649,
+                61.27961732074618
+              ],
+              "airfield_group": "rareplanes-location-31"
+            }
+          ]
+        },
+        "rareplanes-location-39": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 72,
+          "manifest_accepted_boxes": 72,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 72,
+          "visible_fraction_min": 0.26994300655569387,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.25_to_below0.5": 2,
+            "0.5_to_below1": 11,
+            "full_1.0": 59
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 2,
+          "truncated": 13,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 18,
+            "medium_32_to96_squared": 54
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-50": {
+          "positive_training_tiles": 12,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 57,
+          "manifest_accepted_boxes": 57,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 57,
+          "visible_fraction_min": 0.3364312307136832,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.25_to_below0.5": 2,
+            "full_1.0": 47,
+            "0.5_to_below1": 8
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 2,
+          "truncated": 10,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 42,
+            "medium_32_to96_squared": 15
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-56": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 66,
+          "manifest_accepted_boxes": 66,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 66,
+          "visible_fraction_min": 0.5648418271631905,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 57,
+            "0.5_to_below1": 9
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 0,
+          "truncated": 9,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 62,
+            "medium_32_to96_squared": 4
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-57": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 220,
+          "manifest_accepted_boxes": 220,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 220,
+          "visible_fraction_min": 0.2574906886166778,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 192,
+            "0.5_to_below1": 15,
+            "0.25_to_below0.5": 13
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 13,
+          "truncated": 28,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 219,
+            "medium_32_to96_squared": 1
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-6": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 5,
+          "annotations": 45,
+          "manifest_accepted_boxes": 45,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 45,
+          "visible_fraction_min": 0.46591159959680434,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 40,
+            "0.5_to_below1": 4,
+            "0.25_to_below0.5": 1
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 1,
+          "truncated": 5,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 17,
+            "small_lt32_squared": 28
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-78": {
+          "positive_training_tiles": 9,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 21,
+          "manifest_accepted_boxes": 21,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 21,
+          "visible_fraction_min": 0.22901527070499014,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 16,
+            "0.5_to_below1": 4,
+            "below_0.25": 1
+          },
+          "below_0_25": 1,
+          "below_0_25_fraction": 0.047619047619047616,
+          "below_0_5": 1,
+          "truncated": 5,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 10,
+            "small_lt32_squared": 11
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 1
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "78_10400100351F9900_tile_126.png",
+              "annotation_id": 12022,
+              "partialDec": 0.22901527070499014,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                493.1459279730916,
+                109.79654026590288,
+                18.854072026908398,
+                61.014683682471514
+              ],
+              "airfield_group": "rareplanes-location-78"
+            }
+          ]
+        },
+        "rareplanes-location-79": {
+          "positive_training_tiles": 6,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 20,
+          "manifest_accepted_boxes": 20,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 20,
+          "visible_fraction_min": 0.43169305789720847,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 16,
+            "0.5_to_below1": 2,
+            "0.25_to_below0.5": 2
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 2,
+          "truncated": 4,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 13,
+            "small_lt32_squared": 7
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-82": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 1,
+          "annotations": 58,
+          "manifest_accepted_boxes": 58,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 58,
+          "visible_fraction_min": 0.05106050560407169,
+          "visible_fraction_median": 0.9720511731079784,
+          "visible_fraction_bins": {
+            "full_1.0": 24,
+            "0.5_to_below1": 24,
+            "below_0.25": 6,
+            "0.25_to_below0.5": 4
+          },
+          "below_0_25": 6,
+          "below_0_25_fraction": 0.10344827586206896,
+          "below_0_5": 10,
+          "truncated": 34,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 49,
+            "large_ge96_squared": 9
+          },
+          "below0_25_bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 6
+          },
+          "severe_fragment_examples": [
+            {
+              "image_id": "82_10400100435D3500_tile_1147.png",
+              "annotation_id": 15486,
+              "partialDec": 0.05106050560407169,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                0.0,
+                452.246858144179,
+                38.20144288614392,
+                59.75314185768366
+              ],
+              "airfield_group": "rareplanes-location-82"
+            },
+            {
+              "image_id": "82_10400100435D3500_tile_524.png",
+              "annotation_id": 15090,
+              "partialDec": 0.08573700651807194,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                214.14350445196033,
+                0.0,
+                82.87154044955969,
+                23.222776560112834
+              ],
+              "airfield_group": "rareplanes-location-82"
+            },
+            {
+              "image_id": "82_10400100435D3500_tile_1102.png",
+              "annotation_id": 8288,
+              "partialDec": 0.1317611405058852,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                466.0336569286883,
+                472.9234243500978,
+                45.96634306758642,
+                39.07657565176487
+              ],
+              "airfield_group": "rareplanes-location-82"
+            },
+            {
+              "image_id": "82_10400100435D3500_tile_1147.png",
+              "annotation_id": 15488,
+              "partialDec": 0.15888538845118078,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                206.12955599278212,
+                465.7270676475018,
+                84.40059984102845,
+                46.27293235436082
+              ],
+              "airfield_group": "rareplanes-location-82"
+            },
+            {
+              "image_id": "82_10400100435D3500_tile_1061.png",
+              "annotation_id": 3070,
+              "partialDec": 0.18332248042936714,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                420.553703609854,
+                429.75244348682463,
+                91.44629638642073,
+                82.24755651503801
+              ],
+              "airfield_group": "rareplanes-location-82"
+            },
+            {
+              "image_id": "82_10400100435D3500_tile_1018.png",
+              "annotation_id": 8607,
+              "partialDec": 0.20996494415405043,
+              "truncated": 1.0,
+              "bbox_xywh": [
+                447.33934696763754,
+                11.431425897404552,
+                64.66065303236246,
+                109.71202502027154
+              ],
+              "airfield_group": "rareplanes-location-82"
+            }
+          ]
+        },
+        "rareplanes-location-9": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 4,
+          "annotations": 92,
+          "manifest_accepted_boxes": 92,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 92,
+          "visible_fraction_min": 0.2549950241368811,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "0.25_to_below0.5": 5,
+            "full_1.0": 81,
+            "0.5_to_below1": 6
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 5,
+          "truncated": 11,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 70,
+            "medium_32_to96_squared": 22
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-96": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 200,
+          "manifest_accepted_boxes": 200,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 200,
+          "visible_fraction_min": 0.2560782903142531,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 165,
+            "0.5_to_below1": 21,
+            "0.25_to_below0.5": 14
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 14,
+          "truncated": 35,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 110,
+            "small_lt32_squared": 90
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-97": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 2,
+          "annotations": 74,
+          "manifest_accepted_boxes": 74,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 74,
+          "visible_fraction_min": 0.2646748738609706,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 59,
+            "0.25_to_below0.5": 10,
+            "0.5_to_below1": 5
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 10,
+          "truncated": 15,
+          "bbox_pixel_area_bins": {
+            "medium_32_to96_squared": 28,
+            "small_lt32_squared": 46
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        },
+        "rareplanes-location-98": {
+          "positive_training_tiles": 16,
+          "airfield_groups": 1,
+          "capture_groups": 3,
+          "annotations": 90,
+          "manifest_accepted_boxes": 90,
+          "manifest_ignored_boxes": 0,
+          "rich_annotation_boxes_exactly_match_clamped_manifest_boxes": 90,
+          "visible_fraction_min": 0.29187743901236857,
+          "visible_fraction_median": 1.0,
+          "visible_fraction_bins": {
+            "full_1.0": 80,
+            "0.25_to_below0.5": 7,
+            "0.5_to_below1": 3
+          },
+          "below_0_25": 0,
+          "below_0_25_fraction": 0.0,
+          "below_0_5": 7,
+          "truncated": 10,
+          "bbox_pixel_area_bins": {
+            "small_lt32_squared": 81,
+            "medium_32_to96_squared": 9
+          },
+          "below0_25_bbox_pixel_area_bins": {},
+          "severe_fragment_examples": []
+        }
+      }
+    }
+  },
+  "current_training_policy": "All existing and expanded source labels remain accepted; AW-01C does not change fragment handling during the controlled architecture comparison. Severe fragments are a documented limitation and a possible future validation-only ablation.",
+  "background_reviews": {
+    "source_path": "data/rareplanes-aw01c/negative-reviews.json",
+    "sha256": "56824c3cddf29f519ca8254c91282b38722105c46d13e3792f45eeb9d5cbc130",
+    "approved": 21,
+    "by_split": {
+      "train": 15,
+      "validation": 6
+    },
+    "by_category": {
+      "difficult_background": 18,
+      "empty_apron": 3
+    },
+    "review_method": "Codex visual inspection of native256-pixel crop contact sheets; not human review or proof of analytical correctness.",
+    "rejected_candidate": {
+      "review": {
+        "parent_image_id": "105_104001002F92BB00_tile_56.png",
+        "parent_sha256": "db294c6f4620846e2302e1772068831599eeff033b35640f0cbc865fdc98a8ec",
+        "split": "train",
+        "window": [
+          0,
+          256,
+          256,
+          256
+        ],
+        "halo": 32,
+        "review_required": true,
+        "decision": "empty_no_aircraft",
+        "reviewer": "Codex visual review",
+        "reviewed_at": "2026-10-21T16:25:02.077393+00:00",
+        "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+        "category": "difficult_background"
+      },
+      "reason": "Only38.28125%validsourcepixels; excluded despite no visible aircraft. No missingpixels imputed."
+    },
+    "scope": "All crops retain native source spacing and acquisition provenance. These are small selected background windows inside positive scenes, not a representative empty-scene cohort."
+  },
+  "interpretation": [
+    "Visible bbox area is an imperfect small-aircraft proxy because clipping can make a large aircraft appear small.",
+    "The23 severe fragments in2150 expanded labels are1.07percent, versus12 in576=2.08percent in AW-01B. Fragment labels can confuse localization but cannot by themselves explain most missed aircraft.",
+    "A32-pixel annotation halo includes both accepted and ignored labels; any visually empty window with nodata is rejected."
+  ]
+}

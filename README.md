@@ -51,3 +51,9 @@ The detector was retrained on 174 native tiles from 16 airfield groups with vali
 Fresh-test recall is 21.0%, precision 48.6% and count MAE 1.93 per tile; generalization remains inadequate for operational use.
 See [diagnosis and measured comparisons](docs/AW01B_VALIDATION.md), [Windows reproduction](docs/AW01B_WORKFLOWS.md)
 and [reviewed successes/failures](docs/examples/aw01b/README.md). The original AW-01 checkpoint and reports remain intact.
+
+## AW-01C generalization experiments
+
+See [AW-01C workflows](docs/AW01C_WORKFLOWS.md) and [validation](docs/AW01C_VALIDATION.md) for the isolated native-pixel ResNet/MobileNet comparison, reviewed background crops, and independent evaluation. Original AW-01/AW-01B artifacts remain available.
+
+The frozen AW-01C ResNet prototype achieved 81.2% precision, 75.9% recall and count MAE 1.04 on 68 reserved tiles from nine unseen airfield groups. It remains experimental: independent empty-scene false alarms and operational reliability are unverified.

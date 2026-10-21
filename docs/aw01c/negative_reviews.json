@@ -1,0 +1,382 @@
+{
+  "reviews": [
+    {
+      "parent_image_id": "100_1040010029990A00_tile_375.png",
+      "parent_sha256": "b885286620915fb615d4abdad7226700f9d8e8b517c75d93f9c05d59985d976d",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077376+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "114_104001000453C000_tile_204.png",
+      "parent_sha256": "7bf90e218ab6099f2ed071995c1a6d3f33eadf986ed522f63e9fd67df6f167ae",
+      "split": "train",
+      "window": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077397+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "empty_apron"
+    },
+    {
+      "parent_image_id": "123_10400100458F0500_tile_108.png",
+      "parent_sha256": "9c7e2f8d7a8571f1a9b16193403eafb0203efe72374cefe193e109cc13d7a750",
+      "split": "train",
+      "window": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077399+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "18_10400100211BDD00_tile_2560.png",
+      "parent_sha256": "7292f5a8f7b6680d279e6de7580732a92a13251db5e7069b0a6e46a00522a470",
+      "split": "train",
+      "window": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077401+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "1_104005000FDC8D00_tile_114.png",
+      "parent_sha256": "e39979deec0b0ec85eb3f7dbf040224f061a1529137737326a8904c7b48aee76",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077403+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "21_104001001E7CA100_tile_161.png",
+      "parent_sha256": "e91243e1425e12752f57a8f1126d362c9056e608c1caaac048eefa91269267a9",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077405+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "23_104001001E51BE00_tile_1206.png",
+      "parent_sha256": "f7d01cc62f3b445a7289e6ea5ba3611145604ac372ac1349c68290f321f6e729",
+      "split": "train",
+      "window": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077407+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "28_1040010041747E00_tile_76.png",
+      "parent_sha256": "8106b04d9c53aa66f7d88c65c836565922a78b58312d8b1bfc018381d4da999d",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077408+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "29_104001000EC9AE00_tile_161.png",
+      "parent_sha256": "a188d79d7155d47fbb123c147b518895464623c1dc115fa5fc2ee692c8f07ae3",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077410+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "2_104001003B4B5900_tile_10.png",
+      "parent_sha256": "002cfa462d9b3b5dd3dba73fe0aaa2d977f0ded249ec0d40ec8a78047ba6e334",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077412+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "30_104001002394E000_tile_28.png",
+      "parent_sha256": "161a95d3cbd99a28a98e23baa0da0602af7518e209f5a72ca1c1e32557f396e9",
+      "split": "train",
+      "window": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077414+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "31_104001002809DA00_tile_212.png",
+      "parent_sha256": "fccbaf2d86c1ab62a3df9ac637209285dd8a0065552470ab6904d33e1ecdf442",
+      "split": "train",
+      "window": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077416+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "empty_apron"
+    },
+    {
+      "parent_image_id": "36_104001003E76E200_tile_107.png",
+      "parent_sha256": "d56fa19cb58c5371a4167900470a466018de2881f753a3b9a9f2f6ec63e2f466",
+      "split": "validation",
+      "window": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077418+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "37_104001000EA43C00_tile_344.png",
+      "parent_sha256": "301a0a7620cb9cda51b61b490b0b82443337bfb52fc0daa1fc37b17fcb73503b",
+      "split": "validation",
+      "window": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077419+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "empty_apron"
+    },
+    {
+      "parent_image_id": "3_10400100094C6800_tile_42.png",
+      "parent_sha256": "5784c48aac299f3b27b5e64ab73880b0ac336b81c647bb9e3a2ea9fcd22ae936",
+      "split": "train",
+      "window": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077421+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "42_10400100055EA300_tile_1392.png",
+      "parent_sha256": "a0142f209b917343ef7932256221432dd15ebd3c2357e31890dbc49656d0e1a8",
+      "split": "validation",
+      "window": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077423+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "45_104001000E6AB500_tile_67.png",
+      "parent_sha256": "78df9f2e5c469304c029b4818439c195e9557d5ff2cf68b9c3fd4944d31bac9e",
+      "split": "validation",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077425+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "75_104001003D370500_tile_171.png",
+      "parent_sha256": "69ac715d639bfa74644d41cbfb67590decb0c1f590f3ee6c8deb971ac78d4b94",
+      "split": "validation",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077426+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "79_10400100407A9000_tile_30.png",
+      "parent_sha256": "e54dd69d5bdf5b05aa57ded666762f28e92b32da8eacf897b64ababcae534c1c",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077428+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "7_104001002D43CF00_tile_14.png",
+      "parent_sha256": "6a445af1ab1c115004b54d9ac09152bff38e4bc38275ec02f96607e62e72cbdd",
+      "split": "validation",
+      "window": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077430+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    },
+    {
+      "parent_image_id": "9_1040010008607D00_tile_125.png",
+      "parent_sha256": "41c024881dee24f09b0d2d81fdb0315586dbfe8d6a5ee119ab499d20e097b9a9",
+      "split": "train",
+      "window": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "halo": 32,
+      "review_required": true,
+      "decision": "empty_no_aircraft",
+      "reviewer": "Codex visual review",
+      "reviewed_at": "2026-10-21T16:25:02.077432+00:00",
+      "notes": "Reviewed full native256-pixel crop in unresized contact sheet. No visible aircraft; annotations plus32-pixel halo excluded.",
+      "category": "difficult_background"
+    }
+  ]
+}
