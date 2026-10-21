@@ -1,5 +1,7 @@
 # Dataset Specification
 
+> AW-01 status: a bounded experimental high-resolution optical detector, preparation/training/evaluation CLI and regression tests now implement part of this VISION-0 design. See [AW-01 validation](AW01_VALIDATION.md) and [workflows](AW01_WORKFLOWS.md). Other future components below remain unimplemented.
+
 ## Goals
 
 The dataset supports native high-resolution oriented aircraft annotations, controlled multi-resolution derivatives, and real low-resolution calibration/evaluation without airfield, scene, crop, geographic, or background leakage. It is a manifest-driven specification; VISION-0 downloads no imagery.

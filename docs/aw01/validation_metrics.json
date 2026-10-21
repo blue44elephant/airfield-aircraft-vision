@@ -1,0 +1,236 @@
+{
+  "status": "measured_experimental",
+  "split": "validation",
+  "confidence_threshold": 0.5,
+  "matching_iou": 0.5,
+  "manifest_sha256": "311cb70ee56a3765b86f539f5a075fb8deb4ad44ae14b3d04b4098c92f029138",
+  "checkpoint_sha256": "3f96b9ff3b42ebbc937eb818f2582de3e087e9eee654571363e778b8257b70fc",
+  "independent_airfields": [
+    "rareplanes-location-36",
+    "rareplanes-location-45"
+  ],
+  "metrics": {
+    "images": 6,
+    "tp": 3,
+    "fp": 2,
+    "fn": 10,
+    "precision": 0.6,
+    "recall": 0.23076923076923078,
+    "count_mae": 1.3333333333333333,
+    "count_bias": -1.3333333333333333,
+    "count_rmse": 1.9148542155126762,
+    "count_absolute_error": 8,
+    "truth_count": 13,
+    "predicted_count": 5
+  },
+  "records": [
+    {
+      "image_id": "36_104001003E76E200_tile_92.png",
+      "airfield": "rareplanes-location-36",
+      "truth_count": 2,
+      "predicted_count": 1,
+      "matches": {
+        "true_positives": [
+          {
+            "prediction": 0,
+            "truth": 1,
+            "iou": 0.6701077273882292
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          0
+        ],
+        "ignored_predictions": []
+      },
+      "source_sha256": "441f9659f3d11f99de586dcf82a3bf6654f7a91fb6b63fd18ddefc871d808bc3",
+      "acquisition_timestamp": "2018-07-11T11:56:00+00:00",
+      "timestamp_precision": "minute",
+      "timestamp_timezone_basis": "assumed_utc"
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_115.png",
+      "airfield": "rareplanes-location-36",
+      "truth_count": 1,
+      "predicted_count": 1,
+      "matches": {
+        "true_positives": [
+          {
+            "prediction": 0,
+            "truth": 0,
+            "iou": 0.6089533217412588
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": [],
+        "ignored_predictions": []
+      },
+      "source_sha256": "d9fb5ed2fce0cf0ed4af8fcf2c700cb88ffe84c976a36829d6d861a3b0204149",
+      "acquisition_timestamp": "2018-07-11T11:56:00+00:00",
+      "timestamp_precision": "minute",
+      "timestamp_timezone_basis": "assumed_utc"
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_114.png",
+      "airfield": "rareplanes-location-36",
+      "truth_count": 1,
+      "predicted_count": 0,
+      "matches": {
+        "true_positives": [],
+        "false_positives": [],
+        "false_negatives": [
+          0
+        ],
+        "ignored_predictions": []
+      },
+      "source_sha256": "48d7349e7e4d74274163aa815aec0dff049e9e9b7b8077eb78d46a398a000478",
+      "acquisition_timestamp": "2018-07-11T11:56:00+00:00",
+      "timestamp_precision": "minute",
+      "timestamp_timezone_basis": "assumed_utc"
+    },
+    {
+      "image_id": "45_104001000E6AB500_tile_46.png",
+      "airfield": "rareplanes-location-45",
+      "truth_count": 2,
+      "predicted_count": 2,
+      "matches": {
+        "true_positives": [
+          {
+            "prediction": 0,
+            "truth": 1,
+            "iou": 0.7940229291041432
+          }
+        ],
+        "false_positives": [
+          1
+        ],
+        "false_negatives": [
+          0
+        ],
+        "ignored_predictions": []
+      },
+      "source_sha256": "1329465b36ddceca21dac062b762c559eda5f7d5189f794e9850431a48601734",
+      "acquisition_timestamp": "2015-07-10T16:07:00+00:00",
+      "timestamp_precision": "minute",
+      "timestamp_timezone_basis": "assumed_utc"
+    },
+    {
+      "image_id": "45_104001000E6AB500_tile_44.png",
+      "airfield": "rareplanes-location-45",
+      "truth_count": 5,
+      "predicted_count": 1,
+      "matches": {
+        "true_positives": [],
+        "false_positives": [
+          0
+        ],
+        "false_negatives": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "ignored_predictions": []
+      },
+      "source_sha256": "4bb3aa8373d0fd32a48071bad223b28943739ebc4bce9f24bffcf8d892e67571",
+      "acquisition_timestamp": "2015-07-10T16:07:00+00:00",
+      "timestamp_precision": "minute",
+      "timestamp_timezone_basis": "assumed_utc"
+    },
+    {
+      "image_id": "45_104001001CAC2B00_tile_25.png",
+      "airfield": "rareplanes-location-45",
+      "truth_count": 2,
+      "predicted_count": 0,
+      "matches": {
+        "true_positives": [],
+        "false_positives": [],
+        "false_negatives": [
+          0,
+          1
+        ],
+        "ignored_predictions": []
+      },
+      "source_sha256": "c8ac5cce4e9055437cf7a1e38ca2c8a8b06e926518914424f1a26ec6502f5273",
+      "acquisition_timestamp": "2016-05-16T16:29:00+00:00",
+      "timestamp_precision": "minute",
+      "timestamp_timezone_basis": "assumed_utc"
+    }
+  ],
+  "model": {
+    "architecture": "fasterrcnn_mobilenet_v3_large_fpn",
+    "preprocessing": "native-rgb-v1",
+    "experimental": true,
+    "experimental_input_bounds_m": [
+      0.2,
+      1.0
+    ],
+    "classes": [
+      "background",
+      "aircraft"
+    ],
+    "training_manifest_sha256": "311cb70ee56a3765b86f539f5a075fb8deb4ad44ae14b3d04b4098c92f029138",
+    "initial_weights_sha256": "fb6a3cc702b1df54c18a44b26708cd083614211062d0c36d2ca7bf9270df3533",
+    "training_airfields": [
+      "rareplanes-location-123",
+      "rareplanes-location-29",
+      "rareplanes-location-79"
+    ],
+    "training_captures": [
+      "104001000EC9AE00",
+      "10400100407A9000",
+      "10400100458F0500"
+    ],
+    "training_source_checksums": [
+      "046a2553cd7808b7b075000b4036347d4bbe53a7182ebf4d9b004ccc39b8c717",
+      "1b9087c2c5bb03f513320af1c1b4468526d0d293921b54ea3c9dd54be03e8302",
+      "2fef09e0b346239dc3516765cb8abac5d3436b64b95be6221b68edf20d70dc5f",
+      "39f43bafc9879d23cc969a1537fd8e2e16b063e182405a8008fdc90a9ba3386a",
+      "91a00ff3bf035264463a287891854dda4630c2fd378b406b48760d9b8ad933fc",
+      "a188d79d7155d47fbb123c147b518895464623c1dc115fa5fc2ee692c8f07ae3",
+      "cfa48fceed011a77eccf5ad938029ff10389098f033e5bee8dffaf6d34e25bef",
+      "dff70f13b08a0afc910c877278c30002bc8124a0ec00c5614b74044ae84a5e7d",
+      "e54dd69d5bdf5b05aa57ded666762f28e92b32da8eacf897b64ababcae534c1c"
+    ],
+    "epochs": 3,
+    "seed": 17,
+    "lr": 0.005,
+    "optimizer": "SGD momentum=0.9 weight_decay=0.0005",
+    "backbone": "frozen including normalization statistics",
+    "checkpoint_selection": "fixed final epoch; no test tuning",
+    "history": [
+      {
+        "epoch": 1,
+        "mean_training_loss": 0.5285193108850055
+      },
+      {
+        "epoch": 2,
+        "mean_training_loss": 0.44652360181013745
+      },
+      {
+        "epoch": 3,
+        "mean_training_loss": 0.5242618603838815
+      }
+    ],
+    "python": "3.14.3",
+    "torch": "2.10.0+cpu",
+    "torchvision": "0.25.0+cpu",
+    "limitations": [
+      "Small experimental training sample; no deployment validation",
+      "COCO pretrained generic-airplane initialization",
+      "Confidence uncalibrated; input bounds are policy, not validated performance range"
+    ],
+    "checkpoint_sha256": "3f96b9ff3b42ebbc937eb818f2582de3e087e9eee654571363e778b8257b70fc"
+  },
+  "limitations": [
+    "Positive-only tiles; no empty-apron false-alarm-rate estimate.",
+    "Counts are per tile, not whole-airfield inventory.",
+    "Location/lineage grouping enforced; no comprehensive geographic-distance audit.",
+    "No truncation visibility fraction in instances_aircraft; edge annotations retained.",
+    "Micro precision/recall at fixed threshold and IoU=0.5; not COCO mAP.",
+    "Counts/errors are per native tile; do not sum as whole-airfield inventory.",
+    "Qualitative FP/FN overlays are candidate examples; require human review.",
+    "Unknown local quality explicitly allowed for this experiment."
+  ]
+}

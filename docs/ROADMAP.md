@@ -1,5 +1,7 @@
 # Gated Roadmap
 
+> AW-01 status: a bounded experimental high-resolution optical detector, preparation/training/evaluation CLI and regression tests now implement part of this VISION-0 design. See [AW-01 validation](AW01_VALIDATION.md) and [workflows](AW01_WORKFLOWS.md). Other future components below remain unimplemented.
+
 Every milestone is blocked until its inputs are versioned and its acceptance criteria pass. “Must not claim” statements remain in force after the milestone unless a later named evaluation gate explicitly supplies evidence.
 
 ## VISION-0 — architecture and schemas

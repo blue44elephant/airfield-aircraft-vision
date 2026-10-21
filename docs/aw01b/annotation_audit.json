@@ -1,0 +1,1122 @@
+{
+  "checked_training_and_validation_images": 220,
+  "checked_labels": 723,
+  "records": [
+    {
+      "image_id": "1_104005000FDC8D00_tile_13.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_30.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_40.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_64.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_14.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_54.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_91.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_37.png",
+      "labels": 9,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_8.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_38.png",
+      "labels": 11,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_56.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "1_104005000FDC8D00_tile_114.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001002F92BB00_tile_56.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001003141CC00_tile_55.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_1040010032B80C00_tile_82.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001002F92BB00_tile_78.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001003141CC00_tile_58.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_1040010032B80C00_tile_78.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001002F92BB00_tile_57.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001003141CC00_tile_66.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_1040010032B80C00_tile_53.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001002F92BB00_tile_86.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_104001003141CC00_tile_56.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "105_1040010032B80C00_tile_58.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000453C000_tile_437.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000A497900_tile_307.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_1040010049AD0900_tile_177.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000453C000_tile_606.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000A497900_tile_176.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_1040010049AD0900_tile_699.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000453C000_tile_229.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000A497900_tile_113.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_1040010049AD0900_tile_274.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000453C000_tile_204.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_104001000A497900_tile_632.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "114_1040010049AD0900_tile_203.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_109.png",
+      "labels": 10,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_108.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_41.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_4.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_94.png",
+      "labels": 11,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_158.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_11.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_36.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_92.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_5.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_20.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_77.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_10400100211BDD00_tile_2560.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_1040050010DC4900_tile_3730.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_10400100211BDD00_tile_3130.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_1040050010DC4900_tile_1760.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_10400100211BDD00_tile_4476.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_1040050010DC4900_tile_2627.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_10400100211BDD00_tile_3596.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_1040050010DC4900_tile_2685.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_10400100211BDD00_tile_3440.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_1040050010DC4900_tile_3132.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_10400100211BDD00_tile_2984.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "18_1040050010DC4900_tile_2764.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_3.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_4.png",
+      "labels": 10,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_10.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_22.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_16.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_30.png",
+      "labels": 8,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_23.png",
+      "labels": 9,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "2_104001003B4B5900_tile_11.png",
+      "labels": 9,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_194.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_300.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_316.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_195.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_299.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_161.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_282.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_317.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_177.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "21_104001001E7CA100_tile_178.png",
+      "labels": 6,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001001E51BE00_tile_1518.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001002E8B7900_tile_2092.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001001E51BE00_tile_2094.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001002E8B7900_tile_1353.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001001E51BE00_tile_1960.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001002E8B7900_tile_1288.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001001E51BE00_tile_1267.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001002E8B7900_tile_2399.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001001E51BE00_tile_1206.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001002E8B7900_tile_2336.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001001E51BE00_tile_1838.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "23_104001002E8B7900_tile_1163.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "100_1040010029990A00_tile_375.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "100_1040010039437200_tile_476.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "100_1040010046CD1500_tile_298.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "106_10400100290F5300_tile_50.png",
+      "labels": 8,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "106_10400100413CDF00_tile_46.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "106_1040010043890900_tile_57.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "106_1040010044D30600_tile_100.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "106_10400100457A8A00_tile_94.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "107_1040010043B54900_tile_143.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "108_1040010043890900_tile_99.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "108_1040010049B46C00_tile_35.png",
+      "labels": 41,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "111_1040010028163500_tile_483.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_145.png",
+      "labels": 10,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_161.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_160.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_178.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_179.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_162.png",
+      "labels": 15,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_10400100094C6800_tile_42.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_104001000953A900_tile_73.png",
+      "labels": 6,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_10400100202B8A00_tile_61.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_31.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_10400100094C6800_tile_86.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_104001000953A900_tile_110.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_10400100202B8A00_tile_26.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_41.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_10400100094C6800_tile_9.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_104001000953A900_tile_55.png",
+      "labels": 13,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_10400100202B8A00_tile_72.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "3_104001003ABB7400_tile_36.png",
+      "labels": 6,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_69.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_68.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_60.png",
+      "labels": 6,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_35.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_76.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_45.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_36.png",
+      "labels": 7,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_77.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_52.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_53.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_43.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "30_104001002394E000_tile_28.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_546.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_346.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_540.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_281.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_343.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_573.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_412.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_309.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_245.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_212.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_445.png",
+      "labels": 12,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "31_104001002809DA00_tile_380.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_52.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_85.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_92.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_113.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_115.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_59.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_107.png",
+      "labels": 7,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_100.png",
+      "labels": 8,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_1040010044AFF200_tile_126.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_10400100202A2200_tile_132.png",
+      "labels": 9,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_1040010044AFF200_tile_96.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_104001000E6AB500_tile_67.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_104001001CAC2B00_tile_170.png",
+      "labels": 7,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_104001000E6AB500_tile_25.png",
+      "labels": 19,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_104001001CAC2B00_tile_83.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "45_1040010044AFF200_tile_108.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "28_1040010041747E00_tile_76.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "6_1040010009874E00_tile_293.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "6_104001003153D300_tile_305.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "92_1040010041354E00_tile_410.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "92_1040010043944F00_tile_359.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "92_10400100447EE500_tile_410.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "92_1040010047A20B00_tile_408.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "28_1040010041747E00_tile_67.png",
+      "labels": 7,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "6_1040010009874E00_tile_239.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "6_104001003153D300_tile_287.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "92_1040010041354E00_tile_528.png",
+      "labels": 4,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "92_1040010043944F00_tile_378.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "7_104001002D43CF00_tile_5.png",
+      "labels": 13,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "7_104001002D43CF00_tile_6.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "7_104001002D43CF00_tile_29.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "7_104001002D43CF00_tile_14.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "7_104001002D43CF00_tile_21.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "7_104001002D43CF00_tile_13.png",
+      "labels": 12,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_104001003D370500_tile_70.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_104001003D370500_tile_171.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_104001003D370500_tile_183.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_10400100446E7B00_tile_59.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_10400100446E7B00_tile_57.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_10400100446E7B00_tile_40.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_104001003D370500_tile_95.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "75_10400100446E7B00_tile_68.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_83.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_47.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_74.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_30.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_39.png",
+      "labels": 8,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_38.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_1040010008607D00_tile_125.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_104001001915BB00_tile_168.png",
+      "labels": 7,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_10400100310B0100_tile_124.png",
+      "labels": 7,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_10400100474E7400_tile_79.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_1040010008607D00_tile_126.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_104001001915BB00_tile_72.png",
+      "labels": 6,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_10400100310B0100_tile_167.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_10400100474E7400_tile_167.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_1040010008607D00_tile_64.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_104001001915BB00_tile_213.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_10400100310B0100_tile_132.png",
+      "labels": 12,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "9_10400100474E7400_tile_194.png",
+      "labels": 6,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_268.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_598.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_387.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_344.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_552.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_599.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_456.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "37_104001000EA43C00_tile_585.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_954.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_1392.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_779.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_1496.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_671.png",
+      "labels": 5,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_1428.png",
+      "labels": 1,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_1088.png",
+      "labels": 2,
+      "coco_boxes_and_dimensions_match": true
+    },
+    {
+      "image_id": "42_10400100055EA300_tile_672.png",
+      "labels": 3,
+      "coco_boxes_and_dimensions_match": true
+    }
+  ],
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "rpn_nms_iou": 0.7,
+  "roi_nms_iou": 0.5,
+  "scene_nms_iou": 0.4,
+  "original_candidate_floor": 0.05,
+  "final_experiment_candidate_floor": 0.005,
+  "note": "Test labels are not part of this pre-selection audit."
+}

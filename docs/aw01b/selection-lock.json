@@ -1,0 +1,109 @@
+{
+  "selection_split": "validation",
+  "candidate_checkpoints": [
+    {
+      "checkpoint": "artifacts\\aw01b\\balanced_frozen_sgd\\best.pt",
+      "sha256": "b455a4c91321e6c18ec2ea01995ad897356390d881a06aecf10242b0cdb10d70",
+      "threshold": 0.4,
+      "epoch": 3,
+      "validation_metrics": {
+        "images": 46,
+        "tp": 58,
+        "fp": 24,
+        "fn": 89,
+        "precision": 0.7073170731707317,
+        "recall": 0.3945578231292517,
+        "f1": 0.5065502183406113,
+        "count_mae": 1.7608695652173914,
+        "count_bias": -1.4130434782608696,
+        "count_rmse": 3.5416773230871224,
+        "count_absolute_error": 81,
+        "truth_count": 147,
+        "predicted_count": 82,
+        "ap50": 0.4368046797599496
+      },
+      "configuration": {
+        "name": "expanded_frozen_sgd",
+        "epochs": 6,
+        "lr": 0.005,
+        "optimizer": "sgd",
+        "backbone": "frozen",
+        "batch_size": 2,
+        "seed": 23,
+        "threads": 4,
+        "augmentation": "D4 native flips/90-degree rotations"
+      }
+    },
+    {
+      "checkpoint": "artifacts\\aw01b\\balanced_fpn_adamw\\best.pt",
+      "sha256": "96c44e68b1214f0b4770d18128eb2d7dd6847d100371c9e537c1d74e27e32e9e",
+      "threshold": 0.3,
+      "epoch": 3,
+      "validation_metrics": {
+        "images": 46,
+        "tp": 50,
+        "fp": 51,
+        "fn": 97,
+        "precision": 0.49504950495049505,
+        "recall": 0.3401360544217687,
+        "f1": 0.4032258064516129,
+        "count_mae": 2.0869565217391304,
+        "count_bias": -1.0,
+        "count_rmse": 3.4135280741548732,
+        "count_absolute_error": 96,
+        "truth_count": 147,
+        "predicted_count": 101,
+        "ap50": 0.3430600867294319
+      },
+      "configuration": {
+        "name": "expanded_fpn_adamw",
+        "epochs": 6,
+        "lr": 0.0003,
+        "optimizer": "adamw",
+        "backbone": "fpn",
+        "batch_size": 2,
+        "seed": 23,
+        "threads": 4,
+        "augmentation": "D4 native flips/90-degree rotations"
+      }
+    }
+  ],
+  "selected": {
+    "checkpoint": "artifacts\\aw01b\\balanced_frozen_sgd\\best.pt",
+    "sha256": "b455a4c91321e6c18ec2ea01995ad897356390d881a06aecf10242b0cdb10d70",
+    "threshold": 0.4,
+    "epoch": 3,
+    "validation_metrics": {
+      "images": 46,
+      "tp": 58,
+      "fp": 24,
+      "fn": 89,
+      "precision": 0.7073170731707317,
+      "recall": 0.3945578231292517,
+      "f1": 0.5065502183406113,
+      "count_mae": 1.7608695652173914,
+      "count_bias": -1.4130434782608696,
+      "count_rmse": 3.5416773230871224,
+      "count_absolute_error": 81,
+      "truth_count": 147,
+      "predicted_count": 82,
+      "ap50": 0.4368046797599496
+    },
+    "configuration": {
+      "name": "expanded_frozen_sgd",
+      "epochs": 6,
+      "lr": 0.005,
+      "optimizer": "sgd",
+      "backbone": "frozen",
+      "batch_size": 2,
+      "seed": 23,
+      "threads": 4,
+      "augmentation": "D4 native flips/90-degree rotations"
+    }
+  },
+  "original_checkpoint_sha256": "3f96b9ff3b42ebbc937eb818f2582de3e087e9eee654571363e778b8257b70fc",
+  "original_validation_threshold": 0.2,
+  "manifest_sha256": "77691871c48a7ac96b31c37bd33a226546ae3d73c37d643f4cb58cf00037a832",
+  "original_manifest_sha256": "311cb70ee56a3765b86f539f5a075fb8deb4ad44ae14b3d04b4098c92f029138",
+  "test_policy": "Fresh and legacy test labels evaluated after this lock; never select from test metrics."
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Calcutta",
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "threads": 4,
+  "cpu": "AMD Ryzen 7 7730U",
+  "packages": {
+    "torch": "2.10.0",
+    "torchvision": "0.25.0",
+    "numpy": "2.4.2",
+    "rasterio": "1.4.4",
+    "Pillow": "12.1.1",
+    "pydantic": "2.13.4",
+    "pytest": "9.1.1"
+  },
+  "note": "Final runs use official NumPy 2.4.2 in project venv. Initial diagnosis preceded that isolated environment repair; global packages unchanged."
+}

@@ -1,0 +1,16 @@
+{
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "threads": 4,
+  "packages": {
+    "torch": "2.10.0",
+    "torchvision": "0.25.0",
+    "numpy": "1.26.4",
+    "rasterio": "1.4.4",
+    "Pillow": "12.1.1",
+    "pydantic": "2.13.4",
+    "pytest": "9.1.1"
+  },
+  "warning": "Existing NumPy 1.26.4 is a nonstandard experimental Windows build; use a clean supported environment before production."
+}

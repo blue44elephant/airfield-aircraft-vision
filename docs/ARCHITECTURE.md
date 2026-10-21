@@ -1,5 +1,7 @@
 # Architecture
 
+> AW-01 status: a bounded experimental high-resolution optical detector, preparation/training/evaluation CLI and regression tests now implement part of this VISION-0 design. See [AW-01 validation](AW01_VALIDATION.md) and [workflows](AW01_WORKFLOWS.md). Other future components below remain unimplemented.
+
 ## Purpose and boundaries
 
 `airfield-aircraft-vision` is a standalone service/library that searches imagery metadata, selects a usable scene, establishes its defensible physical resolution, and routes it only to validated analysis capabilities. It does not share models, datasets, package namespaces, or runtime state with `sentinel-ship-motion`. Epic Archer (EA) will integrate only through a versioned API contract.

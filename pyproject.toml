@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "airfield-aircraft-vision"
 version = "0.1.0"
-description = "Resolution-aware aircraft analysis contracts and routing"
+description = "Resolution-aware optical aircraft detection and counting prototype"
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Proprietary" }
@@ -14,7 +14,11 @@ dependencies = [
   "pydantic>=2.7,<3",
 ]
 
+[project.scripts]
+aircraft-vision = "airfield_aircraft_vision.cli:main"
+
 [project.optional-dependencies]
+vision = ["torch==2.10.0", "torchvision==0.25.0", "numpy>=1.26,<3", "Pillow>=10,<13", "rasterio>=1.4,<2"]
 dev = [
   "pytest>=8",
 ]

@@ -1,0 +1,2168 @@
+{
+  "version": "aw01-1",
+  "samples": [
+    {
+      "image_id": "123_10400100458F0500_tile_124.png",
+      "path": "images/123_10400100458F0500_tile_124.png",
+      "split": "train",
+      "source": {
+        "scene_id": "123_10400100458F0500",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-11-30T19:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "11/30/18 19:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.323798,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.323798,
+        "pan_sharpened_gsd_m": 0.32206192883942825,
+        "pixel_spacing_m": [
+          0.2549032977407215,
+          0.32206192883942825
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-123",
+        "capture_group": "10400100458F0500",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/123_10400100458F0500_tile_124.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "91a00ff3bf035264463a287891854dda4630c2fd378b406b48760d9b8ad933fc",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.9015583677060542e-6,
+          0.0,
+          -122.05500870067628,
+          0.0,
+          -2.9015583677060542e-6,
+          37.9856282729973
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "c89d806a1b7b0d418fd3a8b6effa4f1277a5ac9d63f985d4c2a2aeec200756c5",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Buchanan Field Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            78.90282972157001,
+            491.80897697620094,
+            113.08626240491867,
+            512.0
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            171.68643272668123,
+            419.84385552816093,
+            207.66899345070124,
+            442.7184834163636
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            176.826798543334,
+            446.83077607117593,
+            211.78128610551357,
+            470.9904954135418
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            221.93350858986378,
+            231.96348490007222,
+            259.20116076618433,
+            256.89425911568105
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            267.29723693430424,
+            351.73400844074786,
+            295.3122306391597,
+            369.21125222183764
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            271.1525112912059,
+            480.2431538812816,
+            296.5973220914602,
+            499.26250740513206
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            268.45381923764944,
+            246.87054577097297,
+            306.2355079948902,
+            272.82939314842224
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            271.2810204401612,
+            146.11937574483454,
+            306.2355079948902,
+            168.99400363117456
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            272.1805844530463,
+            377.17881923913956,
+            307.1350720152259,
+            398.5113373808563
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            284.6459715664387,
+            175.16244261711836,
+            307.0065628737211,
+            194.4388144314289
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            307.00656285881996,
+            79.55163839831948,
+            341.7040321305394,
+            104.22539432533085
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            316.00220304727554,
+            160.25538174435496,
+            350.699672318995,
+            183.6440462116152
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            316.13071220368147,
+            288.5075088851154,
+            356.22556557506323,
+            312.924246519804
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            354.16941924393177,
+            382.31918505579233,
+            383.983540982008,
+            404.16573978215456
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            361.365931391716,
+            303.4145697578788,
+            395.03532749414444,
+            327.83130739070475
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            362.2654953971505,
+            96.77186388708651,
+            400.5612207427621,
+            121.44561981409788
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            403.5169310942292,
+            318.57864891923964,
+            440.52756498008966,
+            342.4813499711454
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            438.4714186564088,
+            410.59119705297053,
+            477.7952171638608,
+            433.20880664885044
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            448.75215028971434,
+            332.45763662829995,
+            486.0198024660349,
+            357.38841084204614
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            486.5338390469551,
+            322.4339232817292,
+            512.0,
+            346.5936426259577
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            489.48954939097166,
+            220.6546800993383,
+            512.0,
+            243.78632627986372
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            491.9312231615186,
+            351.2143109012395,
+            512.0,
+            371.69227410294116
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_141.png",
+      "path": "images/123_10400100458F0500_tile_141.png",
+      "split": "train",
+      "source": {
+        "scene_id": "123_10400100458F0500",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-11-30T19:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "11/30/18 19:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.323798,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.323798,
+        "pan_sharpened_gsd_m": 0.32206186295697176,
+        "pixel_spacing_m": [
+          0.2549074367216458,
+          0.32206186295697176
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-123",
+        "capture_group": "10400100458F0500",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/123_10400100458F0500_tile_141.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "1b9087c2c5bb03f513320af1c1b4468526d0d293921b54ea3c9dd54be03e8302",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.9015583677060542e-6,
+          0.0,
+          -122.05382196330389,
+          0.0,
+          -2.9015583677060542e-6,
+          37.98444153562491
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "2dd4795ed86676807b697db69d8e94b9663d47e6200bec021bf395d346ca7be0",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Buchanan Field Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            420.016974600032,
+            17.006031543016434,
+            443.9196756500751
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            0.0,
+            215.94445164874196,
+            17.7770863994956,
+            239.59013440832496
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            29.471418648958206,
+            1.5911970529705286,
+            68.79521715641022,
+            24.20880664885044
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            73.80707381665707,
+            244.9875185173005,
+            111.07472599297762,
+            269.9182927310467
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            123.28309481590986,
+            160.42850081250072,
+            154.6393263041973,
+            185.1022567395121
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            167.23322255909443,
+            70.72911729849875,
+            205.78596618771553,
+            95.14585493132472
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            438.33111898601055,
+            435.31150769628584,
+            458.5335345938802,
+            453.6199468318373
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "123_10400100458F0500_tile_126.png",
+      "path": "images/123_10400100458F0500_tile_126.png",
+      "split": "train",
+      "source": {
+        "scene_id": "123_10400100458F0500",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-11-30T19:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "11/30/18 19:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.323798,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.323798,
+        "pan_sharpened_gsd_m": 0.3220617977821345,
+        "pixel_spacing_m": [
+          0.254911508532582,
+          0.3220617977821345
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-123",
+        "capture_group": "10400100458F0500",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/123_10400100458F0500_tile_126.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "2fef09e0b346239dc3516765cb8abac5d3436b64b95be6221b68edf20d70dc5f",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.9015583677060542e-6,
+          0.0,
+          -122.05500870067628,
+          0.0,
+          -2.9015583677060542e-6,
+          37.98325479825252
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "ddca7f2e0c2b63e5be60e69cd76e09f130835ba9f234cc0271168d459c333819",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Buchanan Field Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            30.19786360114813,
+            95.0619557145983,
+            63.867259703576565,
+            115.62341898679733
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            65.4093694537878,
+            80.92594971694052,
+            101.90596675872803,
+            105.5997056402266
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            71.32079014182091,
+            107.91287025995553,
+            107.56036915630102,
+            133.35768105648458
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            77.23221083730459,
+            5.876608781516552,
+            110.1305520683527,
+            28.494218377396464
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            109.35949718952179,
+            95.57599229551852,
+            146.11311278492212,
+            120.50676651112735
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            117.32706420123577,
+            124.8760774563998,
+            148.4262773990631,
+            148.00772363692522
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            121.43935686349869,
+            21.040687942877412,
+            155.87980784475803,
+            42.88724266551435
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            154.08067980408669,
+            112.53919949568808,
+            190.5772771090269,
+            137.98401029407978
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            155.10875296592712,
+            139.26910174638033,
+            193.91851489245892,
+            164.19987596198916
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            156.13682613521814,
+            11.273992888629436,
+            195.20360635221004,
+            35.4337122309953
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            197.25975267589092,
+            127.18924207612872,
+            234.52740485221148,
+            152.12001629173756
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            208.0545208901167,
+            51.62586455978453,
+            241.98093528300524,
+            75.7855838984251
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            246.09322793781757,
+            39.546004889532924,
+            282.075788654387,
+            64.47677910327911
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            250.20552058517933,
+            66.27590714022517,
+            289.0152825117111,
+            89.66457160748541
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            288.75826421380043,
+            55.48113892227411,
+            324.740824945271,
+            80.1548948455602
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            295.95477636158466,
+            83.23911433666945,
+            331.42330050468445,
+            104.57163248024881
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            332.1943553760648,
+            72.18732782825828,
+            369.2049892619252,
+            93.51984597183764
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            339.64788580685854,
+            98.4031934980303,
+            372.54622703790665,
+            120.50676651299
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            387.1962696239352,
+            11.016974600031972,
+            426.006031550467,
+            34.91967565007508
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_178.png",
+      "path": "images/29_104001000EC9AE00_tile_178.png",
+      "split": "train",
+      "source": {
+        "scene_id": "29_104001000EC9AE00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-07-22T11:07:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/22/15 11:07",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.35405,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.35405,
+        "pan_sharpened_gsd_m": 0.35030456871937204,
+        "pixel_spacing_m": [
+          0.2777923511640459,
+          0.35030456871937204
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-29",
+        "capture_group": "104001000EC9AE00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/29_104001000EC9AE00_tile_178.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "cfa48fceed011a77eccf5ad938029ff10389098f033e5bee8dffaf6d34e25bef",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.156081031536925e-6,
+          0.0,
+          -4.844159255935568,
+          0.0,
+          -3.156081031536925e-6,
+          37.84486195494467
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "fd7c6a80588d8a1141b9cfbfb4eba2901000fcf3f4b3c18c2f44e507c468834e",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=Spain; official_split=train; airfield=Cordoba Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            72.69700297131203,
+            401.8038405198604,
+            103.81974669545889,
+            427.5973473060876
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_161.png",
+      "path": "images/29_104001000EC9AE00_tile_161.png",
+      "split": "train",
+      "source": {
+        "scene_id": "29_104001000EC9AE00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-07-22T11:07:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/22/15 11:07",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.35405,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.35405,
+        "pan_sharpened_gsd_m": 0.35030456871937204,
+        "pixel_spacing_m": [
+          0.2777923513039073,
+          0.35030456871937204
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-29",
+        "capture_group": "104001000EC9AE00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/29_104001000EC9AE00_tile_161.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "a188d79d7155d47fbb123c147b518895464623c1dc115fa5fc2ee692c8f07ae3",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.156081031536925e-6,
+          0.0,
+          -4.845450093077466,
+          0.0,
+          -3.156081031536925e-6,
+          37.84486195494467
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "75f922d067c3d2a3a988f8777165b0929e140ff35fdb1bc85287695fc5fe5d8c",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=Spain; official_split=train; airfield=Cordoba Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            245.71839130716398,
+            497.0905969943851,
+            277.5500385668129,
+            512.0
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            296.2395574899856,
+            400.9511626120657,
+            327.7886401694268,
+            425.2524830531329
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            339.29979195818305,
+            421.2022629827261,
+            370.42253568326123,
+            445.29041394777596
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            381.08100956096314,
+            441.45336334966123,
+            415.18812597100623,
+            463.83615849353373
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            481.6970029710792,
+            401.84314344264567,
+            511.99999999976717,
+            427.5973473060876
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "29_104001000EC9AE00_tile_179.png",
+      "path": "images/29_104001000EC9AE00_tile_179.png",
+      "split": "train",
+      "source": {
+        "scene_id": "29_104001000EC9AE00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-07-22T11:07:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/22/15 11:07",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.35405,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.35405,
+        "pan_sharpened_gsd_m": 0.3503044914749672,
+        "pixel_spacing_m": [
+          0.27779719303358463,
+          0.3503044914749672
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-29",
+        "capture_group": "104001000EC9AE00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/29_104001000EC9AE00_tile_179.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "dff70f13b08a0afc910c877278c30002bc8124a0ec00c5614b74044ae84a5e7d",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.156081031536925e-6,
+          0.0,
+          -4.844159255935568,
+          0.0,
+          -3.156081031536925e-6,
+          37.84357111780277
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "70e2773091c02c5c42e32c2ca1acd7b4ab50514d1145d5aa37a58ed6b4d948d9",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=Spain; official_split=train; airfield=Cordoba Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            138.82493265531957,
+            29.636768503580242,
+            168.66865951381624
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            76.31979671982117,
+            0.0,
+            102.68977123987861,
+            18.597347306087613
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_92.png",
+      "path": "images/36_104001003E76E200_tile_92.png",
+      "split": "validation",
+      "source": {
+        "scene_id": "36_104001003E76E200",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-07-11T11:56:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/11/18 11:56",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.392725,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.392725,
+        "pan_sharpened_gsd_m": 0.3785895606627437,
+        "pixel_spacing_m": [
+          0.22936592309348475,
+          0.3785895606627437
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-36",
+        "capture_group": "104001003E76E200",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/36_104001003E76E200_tile_92.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "441f9659f3d11f99de586dcf82a3bf6654f7a91fb6b63fd18ddefc871d808bc3",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.4020483117129356e-6,
+          0.0,
+          -1.7599649674358162,
+          0.0,
+          -3.4020483117129356e-6,
+          52.81838838192844
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "3b4b64f161ed2c8139dc269fb633f59b22a0c943bf3fbd2217e0d903d74843ed",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=UK; official_split=train; airfield=Tatenhill Airfield"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            77.98420232039643,
+            412.18178447149694,
+            113.98616528022103,
+            431.5028379242867
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            133.42722527851583,
+            416.7420331109315,
+            177.2296135458746,
+            437.023138910532
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_115.png",
+      "path": "images/36_104001003E76E200_tile_115.png",
+      "split": "validation",
+      "source": {
+        "scene_id": "36_104001003E76E200",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-07-11T11:56:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/11/18 11:56",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.392725,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.392725,
+        "pan_sharpened_gsd_m": 0.37858939186966994,
+        "pixel_spacing_m": [
+          0.2293805731098043,
+          0.37858939186966994
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-36",
+        "capture_group": "104001003E76E200",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/36_104001003E76E200_tile_115.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "d9fb5ed2fce0cf0ed4af8fcf2c700cb88ffe84c976a36829d6d861a3b0204149",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.4020483117129356e-6,
+          0.0,
+          -1.7557906541573445,
+          0.0,
+          -3.4020483117129356e-6,
+          52.81560550640946
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "f6d5fe6a180cc9a3ec4c436ed15a4eee43ccda5ff4603d49a940f3aaa8d3d77b",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=UK; official_split=train; airfield=Tatenhill Airfield"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            98.33221233036602,
+            143.63174250535667,
+            154.97530072025256,
+            176.03350917063653
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "36_104001003E76E200_tile_114.png",
+      "path": "images/36_104001003E76E200_tile_114.png",
+      "split": "validation",
+      "source": {
+        "scene_id": "36_104001003E76E200",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-07-11T11:56:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/11/18 11:56",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.392725,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.392725,
+        "pan_sharpened_gsd_m": 0.37858948174904766,
+        "pixel_spacing_m": [
+          0.22937324823028996,
+          0.37858948174904766
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-36",
+        "capture_group": "104001003E76E200",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/36_104001003E76E200_tile_114.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "48d7349e7e4d74274163aa815aec0dff049e9e9b7b8077eb78d46a398a000478",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.4020483117129356e-6,
+          0.0,
+          -1.7557906541573445,
+          0.0,
+          -3.4020483117129356e-6,
+          52.816996944168956
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "b5712951a0345f38c94556900326503ae22299313edaa83be5da54ec319eafb0",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=UK; official_split=train; airfield=Tatenhill Airfield"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            34.84875097812619,
+            83.04613896645606,
+            72.89082517224597,
+            113.04777476750314
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "45_104001000E6AB500_tile_46.png",
+      "path": "images/45_104001000E6AB500_tile_46.png",
+      "split": "validation",
+      "source": {
+        "scene_id": "45_104001000E6AB500",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-07-10T16:07:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/10/15 16:07",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.322835,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.322835,
+        "pan_sharpened_gsd_m": 0.32110542585627777,
+        "pixel_spacing_m": [
+          0.2515431509095501,
+          0.32110542585627777
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-45",
+        "capture_group": "104001000E6AB500",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/45_104001000E6AB500_tile_46.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "1329465b36ddceca21dac062b762c559eda5f7d5189f794e9850431a48601734",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.892575214864859e-6,
+          0.0,
+          -77.52270788437984,
+          0.0,
+          -2.892575214864859e-6,
+          38.72496612587659
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "185ae5c9e15805d6e8b28a474b3e44d35642b6598ef2d1b1112375b6769d49b8",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Manassas Regional Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            322.3204636089504,
+            177.78290275670588,
+            358.3490680940449,
+            201.60827023908496
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            327.5504223257303,
+            116.7667177412659,
+            371.42396488413215,
+            146.984256984666
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "45_104001000E6AB500_tile_44.png",
+      "path": "images/45_104001000E6AB500_tile_44.png",
+      "split": "validation",
+      "source": {
+        "scene_id": "45_104001000E6AB500",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-07-10T16:07:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "7/10/15 16:07",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.322835,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.322835,
+        "pan_sharpened_gsd_m": 0.32110554985394796,
+        "pixel_spacing_m": [
+          0.25153485523046865,
+          0.32110554985394796
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-45",
+        "capture_group": "104001000E6AB500",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/45_104001000E6AB500_tile_44.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "4bb3aa8373d0fd32a48071bad223b28943739ebc4bce9f24bffcf8d892e67571",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.892575214864859e-6,
+          0.0,
+          -77.52270788437984,
+          0.0,
+          -2.892575214864859e-6,
+          38.72733225240235
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "cede6227f0d77539bf2d6fc5e4bc0cfbef39aa2d432bfd4f215817ddb6fdd20b",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Manassas Regional Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            375.59696504473686,
+            28.13528584688902,
+            405.0881211385131
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            12.518048021942377,
+            446.9277908690274,
+            40.193246226757765,
+            477.8717132695019
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            76.80295723304152,
+            327.36512354947627,
+            107.60160300508142,
+            356.56572638079524
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            77.81989365443587,
+            487.02414102107286,
+            107.98039593547583,
+            512.0
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            132.4439069069922,
+            405.0881211385131,
+            159.46536027267575,
+            429.05876525118947
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "45_104001001CAC2B00_tile_25.png",
+      "path": "images/45_104001001CAC2B00_tile_25.png",
+      "split": "validation",
+      "source": {
+        "scene_id": "45_104001001CAC2B00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2016-05-16T16:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "5/16/16 16:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.341973,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.341973,
+        "pan_sharpened_gsd_m": 0.3400526785687247,
+        "pixel_spacing_m": [
+          0.26638309282800166,
+          0.3400526785687247
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-45",
+        "capture_group": "104001001CAC2B00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/45_104001001CAC2B00_tile_25.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "c8ac5cce4e9055437cf7a1e38ca2c8a8b06e926518914424f1a26ec6502f5273",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.0632551188475683e-6,
+          0.0,
+          -77.52382245740954,
+          0.0,
+          -3.0632551188475683e-6,
+          38.725728819141445
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "f430ddb3db8f6295b7b16f13c780e3d5dc6cc4921f098e8bf5cedf72541c7c63",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Manassas Regional Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            481.20205376297235,
+            38.044730477035046,
+            509.0167561173439,
+            62.76891035027802
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            488.110280495137,
+            1.3220515493303537,
+            512.0,
+            28.989985095337033
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_47.png",
+      "path": "images/79_10400100407A9000_tile_47.png",
+      "split": "train",
+      "source": {
+        "scene_id": "79_10400100407A9000",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-08-10T16:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "8/10/18 16:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.31941,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.31941,
+        "pan_sharpened_gsd_m": 0.31703211104299595,
+        "pixel_spacing_m": [
+          0.2430269658210222,
+          0.31703211104299595
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-79",
+        "capture_group": "10400100407A9000",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/79_10400100407A9000_tile_47.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "046a2553cd7808b7b075000b4036347d4bbe53a7182ebf4d9b004ccc39b8c717",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.8551454113568847e-6,
+          0.0,
+          -76.85462496661934,
+          0.0,
+          -2.8551454113568847e-6,
+          40.220916235637404
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "8cc3e50d8e4e15a8ef559506791392a9265ce65f5e6ec84a67855f08cbc1d482",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Capital City Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            22.755509607493877,
+            384.95579957030714,
+            67.51995180174708,
+            411.993971420452
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            80.30979242548347,
+            383.7216921392828,
+            124.73765986412764,
+            408.5160323008895
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_83.png",
+      "path": "images/79_10400100407A9000_tile_83.png",
+      "split": "train",
+      "source": {
+        "scene_id": "79_10400100407A9000",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-08-10T16:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "8/10/18 16:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.31941,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.31941,
+        "pan_sharpened_gsd_m": 0.3170321113950796,
+        "pixel_spacing_m": [
+          0.2430269636552185,
+          0.3170321113950796
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-79",
+        "capture_group": "10400100407A9000",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/79_10400100407A9000_tile_83.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "39f43bafc9879d23cc969a1537fd8e2e16b063e182405a8008fdc90a9ba3386a",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.8551454113568847e-6,
+          0.0,
+          -76.84995394872635,
+          0.0,
+          -2.8551454113568847e-6,
+          40.220916235637404
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "c2f1984fee521e44a020825d32774e75e9d6812f8a60ea4e92ea2e61141df72f",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Capital City Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            135.14916152134538,
+            170.22110694646835,
+            168.58225368708372,
+            197.82023672014475
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "79_10400100407A9000_tile_30.png",
+      "path": "images/79_10400100407A9000_tile_30.png",
+      "split": "train",
+      "source": {
+        "scene_id": "79_10400100407A9000",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-08-10T16:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "8/10/18 16:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.31941,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.31941,
+        "pan_sharpened_gsd_m": 0.3170320532557034,
+        "pixel_spacing_m": [
+          0.24303113883155458,
+          0.3170320532557034
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-79",
+        "capture_group": "10400100407A9000",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_tiled/79_10400100407A9000_tile_30.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "e54dd69d5bdf5b05aa57ded666762f28e92b32da8eacf897b64ababcae534c1c",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.8551454113568847e-6,
+          0.0,
+          -76.85696047556583,
+          0.0,
+          -2.8551454113568847e-6,
+          40.21974848116416
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "eeaca9c65f598e24d342ae059f9c3a245e6e794a549e8812b3db5df8eb247280",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=train; airfield=Capital City Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            432.9391001686454,
+            173.188605023548,
+            478.26450028270483,
+            206.39731401763856
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            492.84940626099706,
+            177.9920191578567,
+            511.9999999962747,
+            198.62893939577043
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "126_104001000C4AEE00_tile_957.png",
+      "path": "images/126_104001000C4AEE00_tile_957.png",
+      "split": "test",
+      "source": {
+        "scene_id": "126_104001000C4AEE00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-06-06T02:35:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "6/6/15 2:35",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.343903,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.343903,
+        "pan_sharpened_gsd_m": 0.340624500014012,
+        "pixel_spacing_m": [
+          0.29300071390602905,
+          0.340624500014012
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-126",
+        "capture_group": "104001000C4AEE00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/126_104001000C4AEE00_tile_957.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "2c8d7e9ba926027afeaf02cde8e6cf7d43f1a1051fef491a77283e1592ae59a3",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.0722382716887636e-6,
+          0.0,
+          121.78607402657298,
+          0.0,
+          -3.0722382716887636e-6,
+          31.134787265762224
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "11dde6b27bb741eafe71be323af9e5ed5a2d0130f8d2126576f01f3a6d084764",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=PRC; official_split=test; airfield=Shanghai Pudong International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            67.12676540017128,
+            25.129543896764517,
+            286.3978725671768,
+            208.86659812927246
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            155.52855563908815,
+            252.20080903172493,
+            373.06629437953234,
+            432.47112639062107
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "126_104001000C4AEE00_tile_1637.png",
+      "path": "images/126_104001000C4AEE00_tile_1637.png",
+      "split": "test",
+      "source": {
+        "scene_id": "126_104001000C4AEE00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-06-06T02:35:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "6/6/15 2:35",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.343903,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.343903,
+        "pan_sharpened_gsd_m": 0.3406259570613676,
+        "pixel_spacing_m": [
+          0.2929157604737535,
+          0.3406259570613676
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-126",
+        "capture_group": "104001000C4AEE00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/126_104001000C4AEE00_tile_1637.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "e0d36098861718a824c203be5727a7a03d79ea2129f6d9fef37b1f192946ada5",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.0722382716887636e-6,
+          0.0,
+          121.80240911746355,
+          0.0,
+          -3.0722382716887636e-6,
+          31.16243126573088
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "187eb278498082e443bcc583426c0903d773009189bd25744452ae8b374a9aad",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=PRC; official_split=test; airfield=Shanghai Pudong International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            220.70157773047686,
+            71.31509404629469,
+            315.46597289666533
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            213.6875417381525,
+            151.5148345902562,
+            327.21021834015846,
+            257.5318796746433
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            391.47718815505505,
+            104.13553567789495,
+            501.2470489963889,
+            207.80707091465592
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "126_104001000C4AEE00_tile_1602.png",
+      "path": "images/126_104001000C4AEE00_tile_1602.png",
+      "split": "test",
+      "source": {
+        "scene_id": "126_104001000C4AEE00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2015-06-06T02:35:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "6/6/15 2:35",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.343903,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.343903,
+        "pan_sharpened_gsd_m": 0.3406246904995846,
+        "pixel_spacing_m": [
+          0.2929891673377547,
+          0.3406246904995846
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-126",
+        "capture_group": "104001000C4AEE00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/126_104001000C4AEE00_tile_1602.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "dee773f08119c5d43cb83284c6aa58c0dc7ccd9779e50db3bb56e4ab23ae1fc6",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.0722382716887636e-6,
+          0.0,
+          121.80115257201042,
+          0.0,
+          -3.0722382716887636e-6,
+          31.138556902121586
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "e2b4441d55daa5ea4ada51c00a8cebe846e8a4977fa120460b3fccb19dbd5d9c",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=PRC; official_split=test; airfield=Shanghai Pudong International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            35.471350625157356,
+            119.10243207029998,
+            228.7419312596321,
+            282.03906506858766
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            116.50632502138615,
+            326.23996018990874,
+            303.7101161181927,
+            490.04327740706503
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "26_104001001CD3B900_tile_1256.png",
+      "path": "images/26_104001001CD3B900_tile_1256.png",
+      "split": "test",
+      "source": {
+        "scene_id": "26_104001001CD3B900",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2016-05-06T10:37:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "5/6/16 10:37",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.360373,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.360373,
+        "pan_sharpened_gsd_m": 0.3279537023119804,
+        "pixel_spacing_m": [
+          0.18565610059756074,
+          0.3279537023119804
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-26",
+        "capture_group": "104001001CD3B900",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/26_104001001CD3B900_tile_1256.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "997eddfde5b672d4851f3bdebd21ca96f19dcdcab5f2d9474dde5d946f24d689",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.945657481652923e-6,
+          0.0,
+          12.632407475322557,
+          0.0,
+          -2.945657481652923e-6,
+          55.60611699964292
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "ae6f14516d3d497ff7c95e3266d42523814dae474b16c8161675165c669ea39a",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=Denmark; official_split=test; airfield=Copenhagen International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            135.61346405744553,
+            117.14022001530975,
+            266.0782147869468
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "26_104001002E574100_tile_1983.png",
+      "path": "images/26_104001002E574100_tile_1983.png",
+      "split": "test",
+      "source": {
+        "scene_id": "26_104001002E574100",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2017-06-20T10:44:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "6/20/17 10:44",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.316977,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.316977,
+        "pan_sharpened_gsd_m": 0.31564402255878105,
+        "pixel_spacing_m": [
+          0.17859202516654984,
+          0.31564402255878105
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-26",
+        "capture_group": "104001002E574100",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/26_104001002E574100_tile_1983.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "ef17ecb2b7dcd5532536d2481e0a92747938aed04e1926f10d06765ed2b269a8",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.8350830366812094e-6,
+          0.0,
+          12.650763046972774,
+          0.0,
+          -2.8350830366812094e-6,
+          55.62696103057907
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "b30247562256a0e1d040fff944c6390551f49fa1257aac381a2a09f25637af1b",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=Denmark; official_split=test; airfield=Copenhagen International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            98.6362049691379,
+            146.8583794729784,
+            287.0352865718305
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            88.97111220937222,
+            0.0,
+            270.9651721678674,
+            81.09460882842541
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "26_104001002E574100_tile_2042.png",
+      "path": "images/26_104001002E574100_tile_2042.png",
+      "split": "test",
+      "source": {
+        "scene_id": "26_104001002E574100",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2017-06-20T10:44:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "6/20/17 10:44",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.316977,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.316977,
+        "pan_sharpened_gsd_m": 0.31564299464002826,
+        "pixel_spacing_m": [
+          0.17868164649867727,
+          0.31564299464002826
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-26",
+        "capture_group": "104001002E574100",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/26_104001002E574100_tile_2042.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "e6a6da803a4fdfd21ade440053b29d400180f991378cfbd4b5d8b55347603e84",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          2.8350830366812094e-6,
+          0.0,
+          12.651922595934776,
+          0.0,
+          -2.8350830366812094e-6,
+          55.60724869822502
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "9ed4e328e14c3b6e2c5119f72c5d8fe84568357790862346bf84f589bfc01c97",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=Denmark; official_split=test; airfield=Copenhagen International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            78.60388448741287,
+            0.0,
+            181.2222219100222,
+            36.413708955049515
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            138.6838512700051,
+            69.74274162948132,
+            374.61831936147064,
+            198.2349333576858
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            433.38266643323004,
+            202.1817924901843,
+            512.0,
+            283.75021454691887
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "81_104001003AD0B700_tile_290.png",
+      "path": "images/81_104001003AD0B700_tile_290.png",
+      "split": "test",
+      "source": {
+        "scene_id": "81_104001003AD0B700",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-04-05T16:05:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "4/5/18 16:05",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.340831,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.340831,
+        "pan_sharpened_gsd_m": 0.3392931127352239,
+        "pixel_spacing_m": [
+          0.2500179207503624,
+          0.3392931127352239
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-81",
+        "capture_group": "104001003AD0B700",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/81_104001003AD0B700_tile_290.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "98382c7b5f0e3dddbfb9ab8bc55b7489e8231fd9f42eb9c8f4b43e1d06a152b2",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.0542719660063734e-6,
+          0.0,
+          -73.80246551678944,
+          0.0,
+          -3.0542719660063734e-6,
+          42.76015601470022
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "c23a0ca8cbe9a91b0cdf3a622632cb6f0291294af54f2a1bb3f724530f0159e6",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=test; airfield=Albany International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            177.92184559255838,
+            296.08255245909095,
+            222.5226549245417,
+            330.9380230065435
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            224.57443104311824,
+            417.9061748981476,
+            268.9460061751306,
+            453.8111659158021
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            303.8246453255415,
+            414.3759803548455,
+            347.9014565460384,
+            449.2323654498905
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            238.25692616030574,
+            239.54991057142615,
+            413.63625747710466,
+            336.13718028366566
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "83_1040010032B86F00_tile_102.png",
+      "path": "images/83_1040010032B86F00_tile_102.png",
+      "split": "test",
+      "source": {
+        "scene_id": "83_1040010032B86F00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2017-08-04T16:01:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "8/4/17 16:01",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.379912,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.379912,
+        "pan_sharpened_gsd_m": 0.36956936771236193,
+        "pixel_spacing_m": [
+          0.2719187878354446,
+          0.36956936771236193
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-81",
+        "capture_group": "1040010032B86F00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/83_1040010032B86F00_tile_102.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "185dbb09aa372fc38a59b495cfa56a41bd5621f48f83ee21f849a5c539e3ef7c",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.326760935519634e-6,
+          0.0,
+          -73.93573751949538,
+          0.0,
+          -3.326760935519634e-6,
+          42.85255113683577
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "ce946db9fb8ec375a58e5fc155081279d343d835fe043d2ea6e39da341f1cfd2",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=test; airfield=Schenectady County Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            177.24234288930893,
+            314.7361023258418,
+            205.43383012712002,
+            336.08108552731574
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            216.0056378468871,
+            289.6658154577017,
+            243.8950734436512,
+            309.70190817676485
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            250.42414892092347,
+            150.88000856898725,
+            278.45011593028903,
+            171.61922415532172
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            253.46004232764244,
+            264.79689635150135,
+            281.45016180723906,
+            285.23572460375726
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            287.41842536628246,
+            125.09611892141402,
+            316.56543105840683,
+            147.51689252629876
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            289.5048724487424,
+            239.62592559866607,
+            318.6025146394968,
+            260.36680549941957
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            363.0041070468724,
+            187.97509361244738,
+            395.32363349571824,
+            211.43443835526705
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            396.71969670057297,
+            48.304969320073724,
+            427.54826041311026,
+            71.84678160771728
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            401.36466647684574,
+            163.71027780510485,
+            434.59034787118435,
+            186.86757089942694
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            439.22180650010705,
+            139.64682976342738,
+            467.715345390141,
+            160.0856580156833
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "81_104001003AD0B700_tile_91.png",
+      "path": "images/81_104001003AD0B700_tile_91.png",
+      "split": "test",
+      "source": {
+        "scene_id": "81_104001003AD0B700",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-04-05T16:05:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "4/5/18 16:05",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.340831,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.340831,
+        "pan_sharpened_gsd_m": 0.3392924527073613,
+        "pixel_spacing_m": [
+          0.2500631207696777,
+          0.3392924527073613
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-81",
+        "capture_group": "104001003AD0B700",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/test/PS-RGB_tiled/81_104001003AD0B700_tile_91.png",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "addd12029eeacfbe875561e8eab714a6a2c9bcdceca6d8435270db02c18963e1",
+        "width": 512,
+        "height": 512,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.0542719660063734e-6,
+          0.0,
+          -73.8124590946622,
+          0.0,
+          -3.0542719660063734e-6,
+          42.74891323959336
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": "f7e5dcb0871a51127433a323e141512b5c8f277d2c7220d77a0f2c5e0adb6be9",
+        "provenance_notes": [
+          "CSV collection times preserved to published minute precision; dataset acquisition times treated as UTC.",
+          "Pan-sharpened RGB spacing and source panchromatic resolution are separate; effective optical resolution unknown.",
+          "Quality not independently assessed; local cloud/occlusion unknown.",
+          "Country=USA; official_split=test; airfield=Albany International Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            396.02703822776675,
+            81.87503549456596,
+            455.2443119175732
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    }
+  ],
+  "preparation": {
+    "dataset": "RarePlanes real PS-RGB tiles",
+    "seed": 17,
+    "tiles_per_group": 3,
+    "group_rule": "location IDs union shared capture IDs and same country/airfield name",
+    "official_train_groups": 67,
+    "official_test_only_groups": 16,
+    "official_group_overlap": 17,
+    "downloaded_bytes": 0,
+    "license": "CC-BY-SA-4.0",
+    "annotation_sha256": {
+      "train": "4dfd419347ca7838b67a8ccfd44cf1c9228dc85d0b8c5e158d4d2de6819219db",
+      "test": "8c0a48f146b5c24f195bc65df15119ed309af6ad91fc4f0011a43803d7af1776"
+    },
+    "limitations": [
+      "Positive-only tiles; no empty-apron false-alarm-rate estimate.",
+      "Counts are per tile, not whole-airfield inventory.",
+      "Location/lineage grouping enforced; no comprehensive geographic-distance audit.",
+      "No truncation visibility fraction in instances_aircraft; edge annotations retained."
+    ]
+  }
+}
