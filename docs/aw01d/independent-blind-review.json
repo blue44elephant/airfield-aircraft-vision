@@ -1,0 +1,46 @@
+{
+  "policy": "Frozen blind visual labels before any AW01D model outputs; single Codex review, not expert adjudication.",
+  "reviews": [
+    {
+      "image_id": "canyonlands-moab",
+      "sha256": "ead4f0e4905e698e533d30f44ba833e856a10b556029e46123f3f7e712fddf0b",
+      "confirmed_aircraft": 0,
+      "ambiguous_regions": [
+        [
+          380,
+          95,
+          416,
+          135
+        ]
+      ],
+      "decision": "No positive recall ground truth; ambiguous object is ignored, not certified absent."
+    },
+    {
+      "image_id": "cody",
+      "sha256": "306e09fb589780b880f0c764479c549231337da5e49591140b119eb1280155c0",
+      "confirmed_aircraft": 0,
+      "ambiguous_regions": [
+        [
+          515,
+          919,
+          656,
+          1024
+        ]
+      ],
+      "decision": "No positive recall ground truth; ambiguous object is ignored, not certified absent."
+    },
+    {
+      "image_id": "cody-reviewed-background",
+      "sha256": "d91da51001e4992c2e4245b233909c886157f5dc7080ed6d7950cff3860b1b4a",
+      "parent_sha256": "306e09fb589780b880f0c764479c549231337da5e49591140b119eb1280155c0",
+      "parent_window": [
+        250,
+        400,
+        512,
+        512
+      ],
+      "category": "empty_apron",
+      "decision": "Approved background, no visible aircraft; single Codex visual review."
+    }
+  ]
+}

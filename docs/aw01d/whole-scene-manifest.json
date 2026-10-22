@@ -1,0 +1,327 @@
+{
+  "version": "aw01-1",
+  "samples": [
+    {
+      "image_id": "90_1040010003555D00.tif",
+      "path": "scenes/90_1040010003555D00.tif",
+      "split": "test",
+      "source": {
+        "scene_id": "90_1040010003555D00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2014-10-21T16:50:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "10/21/14 16:50",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.383159,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.383159,
+        "pan_sharpened_gsd_m": 0.3763205078155284,
+        "pixel_spacing_m": [
+          0.2944576722308782,
+          0.3763205078155284
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-90",
+        "capture_group": "1040010003555D00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_cog/90_1040010003555D00.tif",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "f3eeaf587998aa92b1a760d21ea2cd9a6fc096381bf71050ea53216f64efbf6a",
+        "width": 3390,
+        "height": 3164,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.3899152221659015e-6,
+          0.0,
+          -94.95967547453085,
+          0.0,
+          -3.3899152221659015e-6,
+          38.81104891340598
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": null,
+        "provenance_notes": [
+          "Unmodified complete-location native RGB COG; no resize or reprojection.",
+          "Geographic full-location annotations mapped through original inverse affine; physical annotation IDs retained in ground-truth sidecar.",
+          "Source minute timestamps retained; UTC basis assumed, not verified.",
+          "Country=USA; Weather=Clear Skies; airfield=Gardner Municipal Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            1338.7186021767557,
+            221.76395451836288,
+            1375.8517403192818,
+            242.0682812873274
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1294.2685895226896,
+            223.0444075576961,
+            1327.9262122772634,
+            240.23906265757978
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1083.1708318665624,
+            156.46084951423109,
+            1109.349406324327,
+            184.2471885830164
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1450.755279108882,
+            78.17029225826263,
+            1481.4920800700784,
+            94.26741618290544
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1572.0443301647902,
+            224.32486060075462,
+            1613.9334367401898,
+            242.06828128919005
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1599.7658844068646,
+            226.33700108900666,
+            1654.426917243749,
+            248.8393542226404
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "49_1040010023B00E00.tif",
+      "path": "scenes/49_1040010023B00E00.tif",
+      "split": "test",
+      "source": {
+        "scene_id": "49_1040010023B00E00",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2016-10-01T18:29:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "10/1/16 18:29",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.3921,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.3921,
+        "pan_sharpened_gsd_m": 0.3895393512344053,
+        "pixel_spacing_m": [
+          0.3284168064824966,
+          0.3895393512344053
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-49",
+        "capture_group": "1040010023B00E00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_cog/49_1040010023B00E00.tif",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "462e3d6e1d58d9b46adaeddd2c5265a8aee9640d92f37d2e95e6d098d683bc75",
+        "width": 5726,
+        "height": 3588,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.512412760907792e-6,
+          0.0,
+          -111.77727924952217,
+          0.0,
+          -3.512412760907792e-6,
+          32.960223769228485
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": null,
+        "provenance_notes": [
+          "Unmodified complete-location native RGB COG; no resize or reprojection.",
+          "Geographic full-location annotations mapped through original inverse affine; physical annotation IDs retained in ground-truth sidecar.",
+          "Source minute timestamps retained; UTC basis assumed, not verified.",
+          "Country=USA; Weather=Clear Skies; airfield=Casa Grande Municipal Airport"
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            5203.50777964294,
+            1990.953014953062,
+            5221.487377353013,
+            2019.3418534453958
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5265.726650673896,
+            1990.4798676464707,
+            5281.813659150153,
+            2017.4492642115802
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            2545.204827684909,
+            1710.0530520379543,
+            2566.7431238032877,
+            1730.3487541489303
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5382.120888505131,
+            1674.4174657724798,
+            5409.800006035715,
+            1690.0313269440085
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            4420.9221319407225,
+            1614.446044465527,
+            4450.020691391081,
+            1634.7913787178695
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5335.042731322348,
+            1602.8539354074746,
+            5354.560057785362,
+            1628.5221768785268
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            4460.6665058247745,
+            1597.4127413704991,
+            4484.560444891453,
+            1616.3386337012053
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            4371.833098713309,
+            1513.4290941655636,
+            4397.8562006652355,
+            1529.279528990388
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            4442.332047633827,
+            1476.7601777799428,
+            4472.850049007684,
+            1496.632364725694
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            4532.584896679968,
+            1349.9566991850734,
+            4563.5760453641415,
+            1371.2483280543238
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            4577.297317303717,
+            1324.879891851917,
+            4605.035578250885,
+            1348.5964006744325
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5102.254255734384,
+            1220.7874840460718,
+            5129.933373264968,
+            1239.2402290664613
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5186.474476594478,
+            1188.3768934346735,
+            5218.885067209601,
+            1207.7759330701083
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5236.2732307985425,
+            1117.523084031418,
+            5262.592049811035,
+            1133.3735188543797
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5276.609038814902,
+            1044.1852512601763,
+            5302.750427592546,
+            1059.325965123251
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5430.855061225593,
+            1626.038153508678,
+            5455.695294909179,
+            1646.974921895191
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            5142.590063765645,
+            1185.0648622754961,
+            5174.882367551327,
+            1207.3027857597917
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            3099.894847460091,
+            2185.0616981498897,
+            3198.309487566352,
+            2242.549096096307
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    }
+  ],
+  "preparation": {
+    "cohort": "Two complete original location COGs; no whole-airfield inventory claim.",
+    "gt_correction": "Polygonclip before AABB, completedbeforepredictions."
+  }
+}

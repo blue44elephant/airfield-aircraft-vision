@@ -1,0 +1,42 @@
+[
+  {
+    "image_id": "90_1040010003555D00.tif",
+    "width": 3390,
+    "height": 3164,
+    "aircraft": 6,
+    "planned_tiles": 72,
+    "nonempty_valid_tiles": 72,
+    "valid_fraction": 0.9999748274280345,
+    "sha256": "f3eeaf587998aa92b1a760d21ea2cd9a6fc096381bf71050ea53216f64efbf6a"
+  },
+  {
+    "image_id": "49_1040010023B00E00.tif",
+    "width": 5726,
+    "height": 3588,
+    "aircraft": 18,
+    "planned_tiles": 150,
+    "nonempty_valid_tiles": 150,
+    "valid_fraction": 0.9998005829966072,
+    "sha256": "462e3d6e1d58d9b46adaeddd2c5265a8aee9640d92f37d2e95e6d098d683bc75"
+  },
+  {
+    "image_id": "10_1040010039679A00__1536.tif",
+    "width": 1536,
+    "height": 1536,
+    "aircraft": 14,
+    "planned_tiles": 16,
+    "nonempty_valid_tiles": 16,
+    "valid_fraction": 0.9999796549479166,
+    "sha256": "396faed6d95a669dc5899e80d06170df05cdd10757c6a577d5497979b50f5aed"
+  },
+  {
+    "image_id": "101_104001003BD74200__1536.tif",
+    "width": 1536,
+    "height": 1536,
+    "aircraft": 13,
+    "planned_tiles": 16,
+    "nonempty_valid_tiles": 16,
+    "valid_fraction": 0.999863518608941,
+    "sha256": "c86508d6a8569d2b7a68d8714ee38a83fc29808f4d2c7142bd51c437c60db0d7"
+  }
+]

@@ -1,0 +1,446 @@
+{
+  "imagery_resampled": false,
+  "max_range_bytes": 16777216,
+  "max_range_requests": 64,
+  "no_model_inference": true,
+  "range_bytes_reserved": 10747904,
+  "range_requests": 41,
+  "ranges": [
+    {
+      "end": 262143,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "754a2403b6ee20d9bbeaa14b7dc65e38b8775ae83aa2f1554f88a415453ceebb",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 0
+    },
+    {
+      "end": 259260415,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "1b8e2cc2804f3cb2291e129fd48dbadbe0ad7b3a948c2fffab8f21b10a596b63",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 258998272
+    },
+    {
+      "end": 259522559,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "37d0ff4d3901b1d29ef3c1d1420bd2b6eb5c6596b064a3a8fcb56bf90cc115c3",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 259260416
+    },
+    {
+      "end": 259784703,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "3540ddbf2f35e4cac636d761664b3d79e3994528dbec67737bb26927023000b7",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 259522560
+    },
+    {
+      "end": 260046847,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "4d6be8d9af73e3646215d08f307984b4e04f370d541d443b8dc8f4d6ec886c99",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 259784704
+    },
+    {
+      "end": 260308991,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "8e4debf84519cb8e98e8f7e9ad8f06da6b4967143bc6f318a082198475ff3582",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 260046848
+    },
+    {
+      "end": 268173311,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "55fc523628378d85667347f5a1c51d36a2cc5fc90b8d2849b2899150873a46f2",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 267911168
+    },
+    {
+      "end": 268435455,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "663226347649321df952c18ecb50b064bd31a38bda63e68ccbb23256949a5f52",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 268173312
+    },
+    {
+      "end": 268697599,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "2a187b27765671b66e44d102746d2e12f802cd2dabcb773b28f3c4a292a38129",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 268435456
+    },
+    {
+      "end": 268959743,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "11db5a240eedc5c207b2a7b1c39ba05919f0e81ce2ab4a90408cbcacce6fb191",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 268697600
+    },
+    {
+      "end": 269221887,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "e091b3968e9627949bcdb9aade30a2d227c6446da18909647504ee73b3924ec6",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 268959744
+    },
+    {
+      "end": 269484031,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "9503f8e5ab79ebd898c690b0f14b9d6cfc954ad729823412ae13ce3febf61777",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 269221888
+    },
+    {
+      "end": 277086207,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "8c6d4a725375f57e93a5f64c411d6076a94078492c4a098b538dbd4c080925d1",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 276824064
+    },
+    {
+      "end": 277348351,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "05dc1f07fe4e25ee8aa3d2141251b20cc39abff68dacb4156d9bed4797e0aa8a",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 277086208
+    },
+    {
+      "end": 277610495,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "4d0082d041610d27911a7399fed4228d065c78f372c1cbb734cb0a0e646e4fd1",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 277348352
+    },
+    {
+      "end": 277872639,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "4d51d5da61e082fd49525fd430c6b42f7041bf4d605a1cbf25f0a43168843424",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 277610496
+    },
+    {
+      "end": 278134783,
+      "etag": "\"0x8DB3A6CB5A20689\"",
+      "sha256": "e99d761a490afe6dfae26b752a1c5d63de85bff2959dfc08ae7a54de9401797d",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+      "start": 277872640
+    },
+    {
+      "end": 262143,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "abf32c8155bbe023e7099cd222a4fb8238390b66075276d9157d2b10e8d2724e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 0
+    },
+    {
+      "end": 287047679,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "be62c7f51d5737a5ae0517829f071a48556a2e9dd39c25fb4085ec1337772fa7",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 286785536
+    },
+    {
+      "end": 287309823,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "f48898ff2b890f2f28e34502047ecc45275ff68134f364e12c87d29711b7fb6f",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 287047680
+    },
+    {
+      "end": 287571967,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "9b3deadb5db7984801bb3973d56626dd360156d29b3ac92b0585b7db4c28b4e6",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 287309824
+    },
+    {
+      "end": 287834111,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "7111841c00b4a8dffc8caf9cb5c59c889e1195ee3d8d230b2a51fb3508160caa",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 287571968
+    },
+    {
+      "end": 288096255,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "8fd7f44b49ca0bd61ada42110bae2f840a93fca2f790c41760b3718b47ed5c34",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 287834112
+    },
+    {
+      "end": 288358399,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "5b1f0112c5259ed60489bdc6fe46116f8087e85bd4d4593d76e9f52a2be56468",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 288096256
+    },
+    {
+      "end": 288620543,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "701d0c739d3671087822c9cdf3c8f7f47c40e3f3995f399724f8470fd913865e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 288358400
+    },
+    {
+      "end": 288882687,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "cadc4a4a2b8e1946a22f2c5216aaa18a2a70eddc6e71325ee9e3d2b56464ec3b",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 288620544
+    },
+    {
+      "end": 299106303,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "ba08a4763f840a82f70dc138189298084b9b782e8a2d0b5dbcf0552e7a3a32f3",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 298844160
+    },
+    {
+      "end": 299368447,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "1a391c39e9cdf790335ee68d59aaba1effcedd2b2c675b612f23647c8ef3f30f",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 299106304
+    },
+    {
+      "end": 299630591,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "c79d0f5e2a5f31a1a8b7ead67a651743370283cd5882d8ab21826ead654560d6",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 299368448
+    },
+    {
+      "end": 299892735,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "99a47b3910d1d83b4dc6ce3bee532dc0de3e6b0577cede2e58c81716fbb4d75f",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 299630592
+    },
+    {
+      "end": 300154879,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "b75363bad189f78b06fa0bade5afc7ad3b1166c63c5cd8987b0d95949398789a",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 299892736
+    },
+    {
+      "end": 300417023,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "3dbda8ee105e56c533578f963914ce4c60dc9b5e8526540eca2dcd49a85beb4b",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300154880
+    },
+    {
+      "end": 300679167,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "13f7b8843a05060ed1760b8b0901dae87c309202aa5eab23e49dbab84d01ae60",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300417024
+    },
+    {
+      "end": 300941311,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "027ef1e309fe63a0cc6c6b38afb7b80f1297d04f4095fbf890c3a48994377e71",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300679168
+    },
+    {
+      "end": 310902783,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "0230566ead3271b4f39e74010a03d9523d35eaeeed8f203c7832dbb9c0541da1",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 310640640
+    },
+    {
+      "end": 311164927,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "63095474bb41decb97da25dc20d4d793a959ca894226a4e22fe7921ed2b28738",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 310902784
+    },
+    {
+      "end": 311427071,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "08d150df5e0dd7302ef6f6d0f2fdc9c427b5e24845fec5c4f8991bf6713ef818",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311164928
+    },
+    {
+      "end": 311689215,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "ad919c52cd7a24e83fea2878cbacaf2764d3060ea557c34f60e56f9b631dcbe7",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311427072
+    },
+    {
+      "end": 311951359,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "70d6ab07f73d3bc8a5084da0d19efb40b28b17cd341f5676a98a789387ca107e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311689216
+    },
+    {
+      "end": 312213503,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "2b1be489c31fa48b677c235a88e0961c05cca766c290b31128acc9a721bc649e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311951360
+    },
+    {
+      "end": 312475647,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "f5b2d1acfd51e67cb2e759e61ec9b859a424efb21ad780f3b16499df8f04c698",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 312213504
+    }
+  ],
+  "samples": [
+    {
+      "fully_valid": true,
+      "name": "canyonlands-moab",
+      "native_roundtrip_identical": true,
+      "parent": {
+        "crs": "EPSG:26912",
+        "height": 12350,
+        "source_bytes": 287806036,
+        "source_etag": "\"0x8DB3A6CB5A20689\"",
+        "transform": [
+          0.6,
+          0.0,
+          602898.0,
+          0.0,
+          -0.6,
+          4296912.0
+        ],
+        "width": 9870
+      },
+      "path": "data\\aw01d-independent\\canyonlands-moab.tif",
+      "pixels_sha256": "8daa66a828dc4676e5af707b754953045daecef8c5eb09545d86dd8cd2cb14ef",
+      "source": {
+        "acquisition_time_raw": "2021-09-17T16:00:00Z",
+        "acquisition_timestamp": null,
+        "airfield_group": "independent-naip-canyonlands-moab",
+        "attribution": "USDA NAIP; hosted/processed by Microsoft Planetary Computer and Esri.",
+        "capture_group": "ut_m_3810910_se_12_060_20210917",
+        "crs": "EPSG:26912",
+        "effective_resolution_m": null,
+        "height": 1024,
+        "license": "Public Domain",
+        "metadata_sha256": null,
+        "native_gsd_m": 0.6,
+        "pan_sharpened_gsd_m": null,
+        "panchromatic_gsd_m": null,
+        "pixel_spacing_m": [
+          0.6,
+          0.6
+        ],
+        "provenance_notes": [
+          "Aerial, not satellite; independent-source robustness evaluation only.",
+          "Native RGB bands1-3 selected from source RGBIR; NIR omitted, no resize or reprojection.",
+          "Raw STAC 16:00Z retained; only acquisition date is verified, no sensing time.",
+          "Full parent COG not downloaded; source ETag and per-range checksums preserve fetched-byte provenance.",
+          "Imagery quality unknown until visual review; analysts must review uncertainty.",
+          "Producer public-domain record overrides no machine-field assumption; conflicting catalog license retained in reservation."
+        ],
+        "quality": "unknown",
+        "scene_id": "ut_m_3810910_se_12_060_20210917",
+        "sensor_domain": "optical",
+        "sensor_id": "USDA-NAIP-aerial-RGBIR",
+        "sha256": "ead4f0e4905e698e533d30f44ba833e856a10b556029e46123f3f7e712fddf0b",
+        "sidecar_sha256": null,
+        "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/ut/2021/ut_060cm_2021/38109/m_3810910_se_12_060_20210917.tif",
+        "timestamp_precision": "date",
+        "timestamp_timezone_basis": "unknown",
+        "transform": [
+          0.6,
+          0.0,
+          608205.6,
+          0.0,
+          -0.6,
+          4290637.2
+        ],
+        "width": 1024
+      },
+      "window": [
+        8846,
+        10458,
+        1024,
+        1024
+      ]
+    },
+    {
+      "fully_valid": true,
+      "name": "cody",
+      "native_roundtrip_identical": true,
+      "parent": {
+        "crs": "EPSG:26912",
+        "height": 12861,
+        "source_bytes": 395190485,
+        "source_etag": "\"0x8DBFADA2838DEE6\"",
+        "transform": [
+          0.6,
+          0.0,
+          653601.0,
+          0.0,
+          -0.6,
+          4936652.4
+        ],
+        "width": 9492
+      },
+      "path": "data\\aw01d-independent\\cody.tif",
+      "pixels_sha256": "d37e34478af2691577bee7b3e090ec61dc5816d77c5c5feb92a84266b5f480e9",
+      "source": {
+        "acquisition_time_raw": "2022-07-06T16:00:00Z",
+        "acquisition_timestamp": null,
+        "airfield_group": "independent-naip-cody",
+        "attribution": "USDA NAIP; hosted/processed by Microsoft Planetary Computer and Esri.",
+        "capture_group": "wy_m_4410932_se_12_060_20220706",
+        "crs": "EPSG:26912",
+        "effective_resolution_m": null,
+        "height": 1024,
+        "license": "Public Domain",
+        "metadata_sha256": null,
+        "native_gsd_m": 0.6,
+        "pan_sharpened_gsd_m": null,
+        "panchromatic_gsd_m": null,
+        "pixel_spacing_m": [
+          0.6,
+          0.6
+        ],
+        "provenance_notes": [
+          "Aerial, not satellite; independent-source robustness evaluation only.",
+          "Native RGB bands1-3 selected from source RGBIR; NIR omitted, no resize or reprojection.",
+          "Raw STAC 16:00Z retained; only acquisition date is verified, no sensing time.",
+          "Full parent COG not downloaded; source ETag and per-range checksums preserve fetched-byte provenance.",
+          "Imagery quality unknown until visual review; analysts must review uncertainty.",
+          "Producer public-domain record overrides no machine-field assumption; conflicting catalog license retained in reservation."
+        ],
+        "quality": "unknown",
+        "scene_id": "wy_m_4410932_se_12_060_20220706",
+        "sensor_domain": "optical",
+        "sensor_id": "USDA-NAIP-aerial-RGBIR",
+        "sha256": "306e09fb589780b880f0c764479c549231337da5e49591140b119eb1280155c0",
+        "sidecar_sha256": null,
+        "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+        "timestamp_precision": "date",
+        "timestamp_timezone_basis": "unknown",
+        "transform": [
+          0.6,
+          0.0,
+          656688.6,
+          0.0,
+          -0.6,
+          4931769.600000001
+        ],
+        "width": 1024
+      },
+      "window": [
+        5146,
+        8138,
+        1024,
+        1024
+      ]
+    }
+  ],
+  "source_domain": "aerial optical, not satellite"
+}

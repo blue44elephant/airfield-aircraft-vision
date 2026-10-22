@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-10-22T16:02:44.563105+00:00",
+  "branch": "feat/aw-01c-generalization",
+  "head": "7f71434",
+  "baseline_tests": 202,
+  "full_suite": {
+    "tests": 320,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_regressions": 118,
+  "junit_xml": "artifacts/aw01d/final-tests.xml",
+  "all_eight_aw01d_modules_import": true,
+  "legacy_cli_help": true,
+  "aw01d_cli_help": true,
+  "real_frozen_tile_evaluation": true,
+  "real_whole_scene_evaluation": true,
+  "validation_only_pilot": true,
+  "original_artifacts_verified": 59,
+  "original_artifacts_unchanged": true,
+  "git_diff_check_exit_code": 0,
+  "untracked_text_whitespace_issues": [],
+  "no_other_repository_modified": true,
+  "automatic_commits_pushes_merges_branch_switches": false
+}

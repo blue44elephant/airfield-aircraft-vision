@@ -1,0 +1,27 @@
+[
+  {
+    "name": "rareplanes-empty-windows",
+    "manifest": "data/rareplanes-aw01d/eval-negatives-manifest.json",
+    "role": "blind reviewed background crops, related to larger scenes"
+  },
+  {
+    "name": "rareplanes-whole-rasters",
+    "manifest": "data/rareplanes-aw01d/whole-scene-manifest.json",
+    "role": "whole native delivered source rasters, not guaranteed entire airfield"
+  },
+  {
+    "name": "rareplanes-large-windows",
+    "manifest": "data/rareplanes-aw01d/window-scene-manifest.json",
+    "role": "fixed1536 native ROI crops, not entire source"
+  },
+  {
+    "name": "naip-domain-windows",
+    "manifest": "data/aw01d-independent/domain-manifest.json",
+    "role": "independent aerial background/ambiguous domain diagnostic, no positive recall"
+  },
+  {
+    "name": "naip-reviewed-background",
+    "manifest": "data/aw01d-independent/background-manifest.json",
+    "role": "one blind reviewed aerial background crop, correlated with Cody domain window"
+  }
+]

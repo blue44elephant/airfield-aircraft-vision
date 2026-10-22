@@ -1,0 +1,28 @@
+{
+  "checkpoint_sha256": "d2aecd3624648981f35def1fff7bb36789f9635546f4f848c719c48e647eda42",
+  "checkpoint": "artifacts\\aw01c\\resnet50-fpn\\best.pt",
+  "raw_threshold": 0.7,
+  "uncertain_floor": 0.2,
+  "nms_iou": 0.4,
+  "primary_dedup": "iou",
+  "supplementary_dedup": "boundary_containment; no independent-label tuning",
+  "validation_domain": {
+    "sensor_ids": [
+      "WV03"
+    ],
+    "governing_resolution_range_m": [
+      0.317218,
+      0.392725
+    ],
+    "checkpoint_sha256": "d2aecd3624648981f35def1fff7bb36789f9635546f4f848c719c48e647eda42"
+  },
+  "cohorts": [
+    {
+      "name": "rareplanes-fresh-tiles",
+      "manifest": "data\\rareplanes-aw01d\\manifest.json",
+      "sha256": "7a2022052f04d434e51b645b8e69ae5e6ceef8c98613365b0815878775576a7b",
+      "role": "fresh stratified positive satellite tiles, eight unseen groups"
+    }
+  ],
+  "policy": "No selection using these labels. Prior C test is exposed regression, not this fresh cohort."
+}

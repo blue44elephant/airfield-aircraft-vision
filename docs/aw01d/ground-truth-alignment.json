@@ -1,0 +1,757 @@
+{
+  "images": 83,
+  "minimum_per_image_best_iou": 0.9999999996440562,
+  "total_coco_boxes": 325,
+  "total_geo_intersections": 344,
+  "boxes_below_point999": 0,
+  "note": "Physical geographic diamonds clipped as polygons before window AABBs. Pre-inference correction removes spurious bounding-box corner labels; no source imagery or COCO labels altered.",
+  "records": [
+    {
+      "image_id": "10_10400100386D9000_tile_85.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999999876413,
+      "mean_best_iou": 0.9999999999876413,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "10_1040010039679A00_tile_51.png",
+      "split": "test",
+      "coco_boxes": 5,
+      "geographic_intersections": 5,
+      "min_best_iou": 0.9999999999944801,
+      "mean_best_iou": 0.999999999998896,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "10_1040010039679A00_tile_166.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "10_10400100386D9000_tile_24.png",
+      "split": "test",
+      "coco_boxes": 12,
+      "geographic_intersections": 13,
+      "min_best_iou": 0.9999999999932696,
+      "mean_best_iou": 0.9999999999992287,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "10_1040010039679A00_tile_67.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.99999999999847,
+      "mean_best_iou": 0.99999999999847,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "10_10400100386D9000_tile_159.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "101_104001003BD74200_tile_185.png",
+      "split": "test",
+      "coco_boxes": 6,
+      "geographic_intersections": 6,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "101_104001003BD74200_tile_160.png",
+      "split": "test",
+      "coco_boxes": 7,
+      "geographic_intersections": 7,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "101_104001003BD74200_tile_198.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "101_104001003BD74200_tile_192.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 0.9999999999131515,
+      "mean_best_iou": 0.9999999999475444,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "101_104001003BD74200_tile_193.png",
+      "split": "test",
+      "coco_boxes": 3,
+      "geographic_intersections": 3,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "101_104001003BD74200_tile_161.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "125_10400100088C2C00_tile_116.png",
+      "split": "validation",
+      "coco_boxes": 17,
+      "geographic_intersections": 17,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "125_10400100088C2C00_tile_88.png",
+      "split": "validation",
+      "coco_boxes": 10,
+      "geographic_intersections": 11,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "125_10400100363EC000_tile_115.png",
+      "split": "validation",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "125_10400100363EC000_tile_432.png",
+      "split": "validation",
+      "coco_boxes": 3,
+      "geographic_intersections": 3,
+      "min_best_iou": 0.9999999999878177,
+      "mean_best_iou": 0.9999999999959392,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "125_10400100088C2C00_tile_86.png",
+      "split": "validation",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "125_10400100088C2C00_tile_95.png",
+      "split": "validation",
+      "coco_boxes": 8,
+      "geographic_intersections": 8,
+      "min_best_iou": 0.999999999972971,
+      "mean_best_iou": 0.9999999999943727,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "130_104001002E47CD00_tile_1034.png",
+      "split": "test",
+      "coco_boxes": 9,
+      "geographic_intersections": 9,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "130_104001000F25CE00_tile_528.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "130_104001002E47CD00_tile_1145.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "130_104001002E47CD00_tile_479.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 0.9999999999740367,
+      "mean_best_iou": 0.9999999999870184,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "130_104001002E47CD00_tile_1008.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "130_104001000F25CE00_tile_1034.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "14_104001001200CC00_tile_4.png",
+      "split": "validation",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "14_104001001200CC00_tile_14.png",
+      "split": "validation",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "14_104001001200CC00_tile_52.png",
+      "split": "validation",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "14_104001001200CC00_tile_5.png",
+      "split": "validation",
+      "coco_boxes": 3,
+      "geographic_intersections": 3,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "14_104001001200CC00_tile_13.png",
+      "split": "validation",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "15_104005000DDC3800_tile_53.png",
+      "split": "test",
+      "coco_boxes": 3,
+      "geographic_intersections": 3,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "15_104005000DDC3800_tile_80.png",
+      "split": "test",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "15_104005000DDC3800_tile_26.png",
+      "split": "test",
+      "coco_boxes": 7,
+      "geographic_intersections": 7,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "15_104005000DDC3800_tile_40.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "15_104005000DDC3800_tile_27.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "15_104005000DDC3800_tile_52.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999999797191,
+      "mean_best_iou": 0.9999999999797191,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "20_1040010038CAE700_tile_132.png",
+      "split": "train",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999999846084,
+      "mean_best_iou": 0.9999999999846084,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "20_1040010038CAE700_tile_151.png",
+      "split": "train",
+      "coco_boxes": 3,
+      "geographic_intersections": 4,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "20_10400100119D4500_tile_138.png",
+      "split": "train",
+      "coco_boxes": 10,
+      "geographic_intersections": 10,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "20_10400100119D4500_tile_419.png",
+      "split": "train",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "20_1040010038CAE700_tile_250.png",
+      "split": "train",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "20_10400100119D4500_tile_139.png",
+      "split": "train",
+      "coco_boxes": 5,
+      "geographic_intersections": 5,
+      "min_best_iou": 0.9999999998993409,
+      "mean_best_iou": 0.9999999999783417,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "4_10400100360CD600_tile_726.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "4_10400100360CD600_tile_778.png",
+      "split": "test",
+      "coco_boxes": 3,
+      "geographic_intersections": 5,
+      "min_best_iou": 0.9999999999727466,
+      "mean_best_iou": 0.9999999999906599,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "4_10400100101BE000_tile_683.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "4_10400100101BE000_tile_846.png",
+      "split": "test",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 0.9999999996440562,
+      "mean_best_iou": 0.9999999998236417,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "4_1040010019345B00_tile_870.png",
+      "split": "test",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 0.9999999999443618,
+      "mean_best_iou": 0.9999999999815826,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "4_10400100101BE000_tile_756.png",
+      "split": "test",
+      "coco_boxes": 7,
+      "geographic_intersections": 7,
+      "min_best_iou": 0.9999999998851067,
+      "mean_best_iou": 0.9999999999820387,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "43_104001000BA11B00_tile_44.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 3,
+      "min_best_iou": 0.9999999999110284,
+      "mean_best_iou": 0.9999999999555143,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "43_104001000BA11B00_tile_61.png",
+      "split": "test",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "43_104001000BA11B00_tile_45.png",
+      "split": "test",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "43_104001000BA11B00_tile_20.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999998355319,
+      "mean_best_iou": 0.9999999998355319,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "43_104001000BA11B00_tile_43.png",
+      "split": "test",
+      "coco_boxes": 6,
+      "geographic_intersections": 6,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "43_104001000BA11B00_tile_78.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "49_104001001A248400_tile_134.png",
+      "split": "test",
+      "coco_boxes": 4,
+      "geographic_intersections": 5,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "49_1040010023B00E00_tile_49.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999999216684,
+      "mean_best_iou": 0.9999999999216684,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "49_1040010023B00E00_tile_94.png",
+      "split": "test",
+      "coco_boxes": 6,
+      "geographic_intersections": 6,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "49_104001001A248400_tile_136.png",
+      "split": "test",
+      "coco_boxes": 3,
+      "geographic_intersections": 3,
+      "min_best_iou": 0.9999999998585848,
+      "mean_best_iou": 0.9999999999528616,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "49_1040010023B00E00_tile_112.png",
+      "split": "test",
+      "coco_boxes": 3,
+      "geographic_intersections": 3,
+      "min_best_iou": 0.999999999955048,
+      "mean_best_iou": 0.999999999985016,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "49_104001001A248400_tile_125.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999999037638,
+      "mean_best_iou": 0.9999999999037638,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "53_1040010008249C00_tile_136.png",
+      "split": "train",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "53_1040010008249C00_tile_119.png",
+      "split": "train",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "53_10400100080B8100_tile_132.png",
+      "split": "train",
+      "coco_boxes": 6,
+      "geographic_intersections": 6,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "53_10400100087A4F00_tile_132.png",
+      "split": "train",
+      "coco_boxes": 12,
+      "geographic_intersections": 13,
+      "min_best_iou": 0.9999999999476904,
+      "mean_best_iou": 0.9999999999956408,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "53_10400100087A4F00_tile_149.png",
+      "split": "train",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "53_10400100080B8100_tile_54.png",
+      "split": "train",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "72_1040010041460F00_tile_115.png",
+      "split": "train",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "72_1040010042C71600_tile_55.png",
+      "split": "train",
+      "coco_boxes": 7,
+      "geographic_intersections": 7,
+      "min_best_iou": 0.999999999784162,
+      "mean_best_iou": 0.999999999969166,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "72_1040010042C71600_tile_103.png",
+      "split": "train",
+      "coco_boxes": 4,
+      "geographic_intersections": 4,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "72_1040010041460F00_tile_36.png",
+      "split": "train",
+      "coco_boxes": 29,
+      "geographic_intersections": 33,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "72_1040010041460F00_tile_20.png",
+      "split": "train",
+      "coco_boxes": 9,
+      "geographic_intersections": 9,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "72_1040010042C71600_tile_157.png",
+      "split": "train",
+      "coco_boxes": 12,
+      "geographic_intersections": 13,
+      "min_best_iou": 0.9999999998127187,
+      "mean_best_iou": 0.9999999999843933,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "8_104001001051CB00_tile_70.png",
+      "split": "train",
+      "coco_boxes": 3,
+      "geographic_intersections": 4,
+      "min_best_iou": 0.9999999998190273,
+      "mean_best_iou": 0.9999999999231036,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "8_104001001051CB00_tile_67.png",
+      "split": "train",
+      "coco_boxes": 2,
+      "geographic_intersections": 3,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "8_104001001051CB00_tile_69.png",
+      "split": "train",
+      "coco_boxes": 6,
+      "geographic_intersections": 6,
+      "min_best_iou": 0.9999999997982807,
+      "mean_best_iou": 0.9999999999663801,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "8_1040050009DCE300_tile_62.png",
+      "split": "train",
+      "coco_boxes": 2,
+      "geographic_intersections": 2,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "8_104001001051CB00_tile_68.png",
+      "split": "train",
+      "coco_boxes": 7,
+      "geographic_intersections": 7,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "8_1040050009DCE300_tile_76.png",
+      "split": "train",
+      "coco_boxes": 3,
+      "geographic_intersections": 5,
+      "min_best_iou": 0.9999999999608117,
+      "mean_best_iou": 0.9999999999719817,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "90_1040010003555D00_tile_25.png",
+      "split": "test",
+      "coco_boxes": 5,
+      "geographic_intersections": 5,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "90_1040010030C39600_tile_17.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999998693899,
+      "mean_best_iou": 0.9999999998693899,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "90_1040010003555D00_tile_33.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 0.9999999997422928,
+      "mean_best_iou": 0.9999999997422928,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "90_104001002C567600_tile_17.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "90_104001002C567600_tile_25.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    },
+    {
+      "image_id": "90_1040010030C39600_tile_41.png",
+      "split": "test",
+      "coco_boxes": 1,
+      "geographic_intersections": 1,
+      "min_best_iou": 1.0,
+      "mean_best_iou": 1.0,
+      "low_iou_boxes": 0
+    }
+  ]
+}

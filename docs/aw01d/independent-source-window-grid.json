@@ -1,0 +1,42 @@
+[
+  {
+    "item": "ut_m_3810910_se_12_060_20210917",
+    "name": "canyonlands-moab",
+    "origin_adjustment_pixels": [
+      -23,
+      0
+    ],
+    "resampling": false,
+    "selection": "metadata-only nearest full native1024 window; no pixel or model inspection",
+    "target_source_pixel": [
+      9381,
+      10970
+    ],
+    "window": [
+      8846,
+      10458,
+      1024,
+      1024
+    ]
+  },
+  {
+    "item": "wy_m_4410932_se_12_060_20220706",
+    "name": "cody",
+    "origin_adjustment_pixels": [
+      0,
+      0
+    ],
+    "resampling": false,
+    "selection": "metadata-only nearest full native1024 window; no pixel or model inspection",
+    "target_source_pixel": [
+      5658,
+      8650
+    ],
+    "window": [
+      5146,
+      8138,
+      1024,
+      1024
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "height": 1024,
+  "item": "wy_m_4410932_se_12_060_20220706",
+  "lat": 44.5194,
+  "lon": -109.0245,
+  "name": "cody-ga-apron",
+  "native_gsd_m": 0.6,
+  "native_window": [
+    5658,
+    8394,
+    1024,
+    1024
+  ],
+  "nearest_rareplanes": {
+    "capture_id": "1040010039437200",
+    "distance_m": 147561.23166852753,
+    "location": "Terminal Circle, Billings, Yellowstone County, Montana, 59105, USA",
+    "location_id": 100
+  },
+  "raw_stac_datetime": "2022-07-06T16:00:00Z",
+  "selection": "additional hangar/GA-apron coverage selected from source imagery before any model predictions; evaluation only",
+  "sensing_time_verified": false,
+  "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+  "timestamp_precision": "date",
+  "width": 1024
+}

@@ -1,0 +1,139 @@
+{
+  "group_rule": "Source capture IDs+country/airfield name union, then geographic annotation-centroid distance <10km union across full dataset.",
+  "new_group_count": 14,
+  "exposed_group_count": 54,
+  "minimum_nearest_prior_centroid_distance_km": 42.85025209479165,
+  "capture_overlap_any": false,
+  "limitations": [
+    "Centroid separation supports location independence but does not prove arbitrary full-scene footprints cannot overlap; native tile georeferenced envelopes separately audited.",
+    "Regions USA, France and Germany only; official-train source partition was unused by all previous experiments."
+  ],
+  "groups": [
+    {
+      "split": "test",
+      "group": "rareplanes-location-4",
+      "nearest_prior_group": "rareplanes-location-109",
+      "distance_km": 190.6041657054543,
+      "new_location": "4",
+      "prior_location": "109",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-130",
+      "nearest_prior_group": "rareplanes-location-56",
+      "distance_km": 138.46206673077,
+      "new_location": "130",
+      "prior_location": "56",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-15",
+      "nearest_prior_group": "rareplanes-location-13",
+      "distance_km": 94.49801533089841,
+      "new_location": "15",
+      "prior_location": "13",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-10",
+      "nearest_prior_group": "rareplanes-location-30",
+      "distance_km": 482.7534061489939,
+      "new_location": "10",
+      "prior_location": "30",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-90",
+      "nearest_prior_group": "rareplanes-location-82",
+      "distance_km": 58.22812522329192,
+      "new_location": "90",
+      "prior_location": "82",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-49",
+      "nearest_prior_group": "rareplanes-location-24",
+      "distance_km": 57.89429046495776,
+      "new_location": "49",
+      "prior_location": "60",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-43",
+      "nearest_prior_group": "rareplanes-location-115",
+      "distance_km": 371.0197152525736,
+      "new_location": "43",
+      "prior_location": "115",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-101",
+      "nearest_prior_group": "rareplanes-location-24",
+      "distance_km": 314.6992043903203,
+      "new_location": "101",
+      "prior_location": "91",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "validation",
+      "group": "rareplanes-location-125",
+      "nearest_prior_group": "rareplanes-location-50",
+      "distance_km": 55.92651954708675,
+      "new_location": "125",
+      "prior_location": "50",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "validation",
+      "group": "rareplanes-location-14",
+      "nearest_prior_group": "rareplanes-location-6",
+      "distance_km": 325.71826973174444,
+      "new_location": "14",
+      "prior_location": "6",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "train",
+      "group": "rareplanes-location-53",
+      "nearest_prior_group": "rareplanes-location-93",
+      "distance_km": 276.1271942397674,
+      "new_location": "53",
+      "prior_location": "93",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "train",
+      "group": "rareplanes-location-8",
+      "nearest_prior_group": "rareplanes-location-9",
+      "distance_km": 43.16105599227944,
+      "new_location": "8",
+      "prior_location": "9",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "train",
+      "group": "rareplanes-location-72",
+      "nearest_prior_group": "rareplanes-location-24",
+      "distance_km": 42.85025209479165,
+      "new_location": "72",
+      "prior_location": "54",
+      "shared_capture_ids": []
+    },
+    {
+      "split": "train",
+      "group": "rareplanes-location-20",
+      "nearest_prior_group": "rareplanes-location-13",
+      "distance_km": 183.67022851069612,
+      "new_location": "20",
+      "prior_location": "13",
+      "shared_capture_ids": []
+    }
+  ]
+}

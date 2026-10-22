@@ -1,0 +1,151 @@
+{
+  "failure_type": "RasterioIOError",
+  "max_range_bytes": 5242880,
+  "max_range_requests": 20,
+  "no_model_inference": true,
+  "range_bytes_reserved": 5242880,
+  "range_requests": 20,
+  "ranges": [
+    {
+      "end": 262143,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "abf32c8155bbe023e7099cd222a4fb8238390b66075276d9157d2b10e8d2724e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 0
+    },
+    {
+      "end": 299892735,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "99a47b3910d1d83b4dc6ce3bee532dc0de3e6b0577cede2e58c81716fbb4d75f",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 299630592
+    },
+    {
+      "end": 300154879,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "b75363bad189f78b06fa0bade5afc7ad3b1166c63c5cd8987b0d95949398789a",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 299892736
+    },
+    {
+      "end": 300417023,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "3dbda8ee105e56c533578f963914ce4c60dc9b5e8526540eca2dcd49a85beb4b",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300154880
+    },
+    {
+      "end": 300679167,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "13f7b8843a05060ed1760b8b0901dae87c309202aa5eab23e49dbab84d01ae60",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300417024
+    },
+    {
+      "end": 300941311,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "027ef1e309fe63a0cc6c6b38afb7b80f1297d04f4095fbf890c3a48994377e71",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300679168
+    },
+    {
+      "end": 301203455,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "4fec41e32235cf33bfadec1c6933f36cf481e7db7e9f62a22cd377ef7bee11e0",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 300941312
+    },
+    {
+      "end": 301465599,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "c7a0de88f8ea4db3f4f0e3038ec271f16e59f6ea652fcfac36f39830700c66b4",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 301203456
+    },
+    {
+      "end": 301727743,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "dc6398a6dc082bd3842489aaa948d15ec20c374de931c4af4dd7fef87bb9169c",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 301465600
+    },
+    {
+      "end": 311427071,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "08d150df5e0dd7302ef6f6d0f2fdc9c427b5e24845fec5c4f8991bf6713ef818",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311164928
+    },
+    {
+      "end": 311689215,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "ad919c52cd7a24e83fea2878cbacaf2764d3060ea557c34f60e56f9b631dcbe7",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311427072
+    },
+    {
+      "end": 311951359,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "70d6ab07f73d3bc8a5084da0d19efb40b28b17cd341f5676a98a789387ca107e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311689216
+    },
+    {
+      "end": 312213503,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "2b1be489c31fa48b677c235a88e0961c05cca766c290b31128acc9a721bc649e",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 311951360
+    },
+    {
+      "end": 312475647,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "f5b2d1acfd51e67cb2e759e61ec9b859a424efb21ad780f3b16499df8f04c698",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 312213504
+    },
+    {
+      "end": 312737791,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "3615081724a3940de927c0bc5863998f086098ca5b384f7665104baedfa08b43",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 312475648
+    },
+    {
+      "end": 312999935,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "b5c8a72042f74a5eaa0a20ab53807da419d33215adbe29320c3905493311868a",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 312737792
+    },
+    {
+      "end": 313262079,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "3c397dbb3a0ce9d575896c6847a735e2aba869bdfb9b081a3ef46ebf57b8c40d",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 312999936
+    },
+    {
+      "end": 322699263,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "71caf4422a07c7d6168072c2c503023887f94c2179b79690454827edf4b079d0",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 322437120
+    },
+    {
+      "end": 322961407,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "72111ae3d8f227686ad8703f333481032a5160a6c59f841fc955aa2ef7b8261b",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 322699264
+    },
+    {
+      "end": 323223551,
+      "etag": "\"0x8DBFADA2838DEE6\"",
+      "sha256": "ee0a7eac86a99b91f840e6eb9263266173f13c62f3d3d0497c1a3b8312b7fb19",
+      "source_uri": "https://naipeuwest.blob.core.windows.net/naip/v002/wy/2022/wy_060cm_2022/44109/m_4410932_se_12_060_20220706.tif",
+      "start": 322961408
+    }
+  ],
+  "status": "incomplete"
+}

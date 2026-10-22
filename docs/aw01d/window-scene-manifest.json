@@ -1,0 +1,358 @@
+{
+  "version": "aw01-1",
+  "samples": [
+    {
+      "image_id": "10_1040010039679A00__1536.tif",
+      "path": "full-scene-windows/10_1040010039679A00__1536.tif",
+      "split": "test",
+      "source": {
+        "scene_id": "10_1040010039679A00__native_124_2969_1536_1536",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-03-03T10:49:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "3/3/18 10:49",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.391929,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.391929,
+        "pan_sharpened_gsd_m": 0.3830904561532724,
+        "pixel_spacing_m": [
+          0.27850978791595565,
+          0.3830902874313058
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-10",
+        "capture_group": "1040010039679A00",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_cog/10_1040010039679A00.tif",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "396faed6d95a669dc5899e80d06170df05cdd10757c6a577d5497979b50f5aed",
+        "width": 1536,
+        "height": 1536,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.44803349887582e-6,
+          0.0,
+          3.9485698468140074,
+          0.0,
+          -3.44803349887582e-6,
+          43.57988031195719
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": null,
+        "provenance_notes": [
+          "Unmodified complete-location native RGB COG; no resize or reprojection.",
+          "Geographic full-location annotations mapped through original inverse affine; physical annotation IDs retained in ground-truth sidecar.",
+          "Source minute timestamps retained; UTC basis assumed, not verified.",
+          "Country=France; Weather=Clear Skies; airfield=Aerpoport de Montpellier",
+          "Lossless native window [124, 2969, 1536, 1536] of source SHA256 0544c442b5811341737ed1f88f730cc4e1b1d7f3c8fdc501f79935704ca70024.",
+          "Annotation-free is only a candidate: visual review required before claiming absence."
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            249.3165309135802,
+            505.55940589495003,
+            313.73955682339147,
+            545.7829195354134
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1509.9125541322865,
+            724.9996210006334,
+            1536.0,
+            759.4515156868465
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            262.8987764858175,
+            424.4815372042358,
+            355.48353146691807,
+            504.92740209028125
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            264.441855735844,
+            617.1606995202601,
+            296.3321602290962,
+            637.8379614651203
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            462.1617435957305,
+            590.9283522684127,
+            494.97789563867263,
+            620.8640897125006
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            237.07791704148985,
+            579.6124377772212,
+            267.93950203526765,
+            610.0625349730253
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            240.98705114074983,
+            540.9325845837593,
+            272.1572519841138,
+            572.5142732262611
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            751.8491547366139,
+            757.7609371468425,
+            785.4882823799271,
+            778.7468149419874
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            714.3008929945063,
+            739.0382422525436,
+            748.1457645378541,
+            760.435607848689
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            403.73047600733116,
+            680.6326926480979,
+            447.4510547486134,
+            702.0300582442433
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            601.5532358174678,
+            680.6326926499605,
+            636.3239549102727,
+            701.4128265473992
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            796.0840932279825,
+            780.2898941952735,
+            833.015123270452,
+            801.9958756417036
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            558.0384009762201,
+            659.9554307051003,
+            597.7469736682251,
+            682.175771901384
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            511.74602348566987,
+            636.1920102592558,
+            552.483315677382,
+            659.2353270575404
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    },
+    {
+      "image_id": "101_104001003BD74200__1536.tif",
+      "path": "full-scene-windows/101_104001003BD74200__1536.tif",
+      "split": "test",
+      "source": {
+        "scene_id": "101_104001003BD74200__native_5139_359_1536_1536",
+        "sensor_id": "WV03",
+        "sensor_domain": "optical",
+        "acquisition_timestamp": "2018-04-29T17:26:00Z",
+        "timestamp_precision": "minute",
+        "acquisition_time_raw": "4/29/18 17:26",
+        "timestamp_timezone_basis": "assumed_utc",
+        "native_gsd_m": 0.365831,
+        "effective_resolution_m": null,
+        "panchromatic_gsd_m": 0.365831,
+        "pan_sharpened_gsd_m": 0.36109926949833343,
+        "pixel_spacing_m": [
+          0.2990122648974904,
+          0.3610995397384608
+        ],
+        "quality": "unknown",
+        "airfield_group": "rareplanes-location-101",
+        "capture_group": "104001003BD74200",
+        "source_uri": "https://rareplanes-public.s3.us-west-2.amazonaws.com/real/train/PS-RGB_cog/101_104001003BD74200.tif",
+        "license": "CC-BY-SA-4.0",
+        "attribution": "J. Shermeyer, T. Hossler, A. Van Etten, D. Hogan, R. Lewis, D. Kim. In-Q-Tel - CosmiQ Works and AI.Reverie. RarePlanes Dataset, June 2020.",
+        "sha256": "c86508d6a8569d2b7a68d8714ee38a83fc29808f4d2c7142bd51c437c60db0d7",
+        "width": 1536,
+        "height": 1536,
+        "crs": "EPSG:4326",
+        "transform": [
+          3.255167929549381e-6,
+          0.0,
+          -93.09522467202156,
+          0.0,
+          -3.255167929549381e-6,
+          34.486333268291176
+        ],
+        "metadata_sha256": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+        "sidecar_sha256": null,
+        "provenance_notes": [
+          "Unmodified complete-location native RGB COG; no resize or reprojection.",
+          "Geographic full-location annotations mapped through original inverse affine; physical annotation IDs retained in ground-truth sidecar.",
+          "Source minute timestamps retained; UTC basis assumed, not verified.",
+          "Country=USA; Weather=Snow; airfield=Hot Springs Memorial Field",
+          "Lossless native window [5139, 359, 1536, 1536] of source SHA256 f2d72030bd970a39a9390d967c7b060c785a5112f3e6ec2229f158bbe9e4b03b.",
+          "Annotation-free is only a candidate: visual review required before claiming absence."
+        ]
+      },
+      "boxes": [
+        {
+          "xyxy": [
+            0.0,
+            1293.976471293237,
+            38.105543836951256,
+            1324.9549915662901
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            95.50566551461816,
+            1229.6549157779664,
+            121.74572114646435,
+            1248.397812653333
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            134.16289032623172,
+            1207.3977257367224,
+            164.3858115412295,
+            1229.4206295665354
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            27.562664341181517,
+            1183.2662460077554,
+            54.505578599870205,
+            1205.7577222604305
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            60.59702008590102,
+            1163.5862042866647,
+            86.36850329115987,
+            1184.9062494840473
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            107.21997607126832,
+            1139.9232969786972,
+            134.39717654138803,
+            1159.6033387016505
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            52.16271649673581,
+            1254.7235403489321,
+            78.63705833256245,
+            1276.7464441806078
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            787.1185602843761,
+            793.8825633805245,
+            824.8386402502656,
+            833.0083606131375
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            868.8844479098916,
+            749.3681832980365,
+            906.8388140834868,
+            790.3682702165097
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            750.1013389490545,
+            748.1967522446066,
+            787.8214189149439,
+            788.7282667402178
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            948.3074734248221,
+            718.9109758734703,
+            997.039005305618,
+            751.7110454086214
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            825.0729264616966,
+            700.4023652076721,
+            863.7301512695849,
+            740.2310210708529
+          ],
+          "score": 1.0
+        },
+        {
+          "xyxy": [
+            1041.5533853843808,
+            657.7622748091817,
+            1091.2220621071756,
+            691.2652029786259
+          ],
+          "score": 1.0
+        }
+      ],
+      "ignored_boxes": []
+    }
+  ],
+  "preparation": {
+    "cohort": "Two fixed1536native sourcewindows; source-offset/georeferencing and parentGTphysicalIDs preserved.",
+    "gt_correction": "Polygonclip before AABB, completedbeforepredictions."
+  }
+}

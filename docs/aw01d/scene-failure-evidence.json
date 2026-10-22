@@ -1,0 +1,78 @@
+{
+  "source": "49_1040010023B00E00.tif",
+  "diagnostic_only": true,
+  "status": "partial",
+  "observed_count": 41,
+  "whole_source_gt": 18,
+  "tp": 14,
+  "fp": 27,
+  "fn": 4,
+  "accepted_overlap_pairs_above_point05": [
+    {
+      "predictions": [
+        26,
+        31
+      ],
+      "iou": 0.3841798170451501,
+      "different_tiles": true
+    },
+    {
+      "predictions": [
+        27,
+        30
+      ],
+      "iou": 0.30034763522823443,
+      "different_tiles": true
+    },
+    {
+      "predictions": [
+        32,
+        33
+      ],
+      "iou": 0.3009467659655177,
+      "different_tiles": false
+    }
+  ],
+  "examples": [
+    {
+      "path": "docs/aw01d/examples/scene-casa-ground-confuser.png",
+      "window": [
+        888,
+        2764,
+        512,
+        512
+      ],
+      "prediction_index": 35,
+      "source_sha256": "462e3d6e1d58d9b46adaeddd2c5265a8aee9640d92f37d2e95e6d098d683bc75"
+    },
+    {
+      "path": "docs/aw01d/examples/scene-casa-buildings.png",
+      "window": [
+        4033,
+        2254,
+        512,
+        512
+      ],
+      "prediction_index": 23,
+      "source_sha256": "462e3d6e1d58d9b46adaeddd2c5265a8aee9640d92f37d2e95e6d098d683bc75"
+    },
+    {
+      "path": "docs/aw01d/examples/scene-casa-overlap.png",
+      "window": [
+        3973,
+        2253,
+        512,
+        512
+      ],
+      "prediction_index": 26,
+      "source_sha256": "462e3d6e1d58d9b46adaeddd2c5265a8aee9640d92f37d2e95e6d098d683bc75"
+    }
+  ],
+  "caution": "Source status partial; whole-source diagnostic includes unavailable-pixel confounding. No threshold/NMS tuning. Overlap pairs may be physical duplicates but require visual review; IoU NMS guarantees neither perfect identities nor zero repeated aircraft.",
+  "qualitative_pending": false,
+  "qualitative_findings": [
+    "Native512 review: score0.990 cross/shadow-like ground pattern has no source aircraft label.",
+    "Dense road-vehicle/industrial-yard parking produces many confident false aircraft detections, not predominantly overlap duplication.",
+    "Three retained accepted pairs overlap IoU>.05; two cross-tile pairs are plausible repeated vehicle false alarms, one same-tile pair. Perfect physical deduplication is not established."
+  ]
+}

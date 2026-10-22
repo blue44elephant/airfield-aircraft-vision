@@ -1,0 +1,25 @@
+{
+  "elapsed_seconds": 95.88245379998989,
+  "cpu_user_seconds": 331.140625,
+  "cpu_system_seconds": 35.734375,
+  "peak_rss_mib": 874.21484375,
+  "configuration": {
+    "architecture": "fasterrcnn_resnet50_fpn",
+    "epochs": 1,
+    "lr": 5e-05,
+    "threads": 4,
+    "max_seconds": 90,
+    "seed": 91
+  },
+  "training_resources": {
+    "stop_reason": "epoch_limit",
+    "elapsed_seconds": 52.2377919999999,
+    "peak_rss_mib": 825.30859375,
+    "cpu_user_seconds": 189.84375,
+    "cpu_system_seconds": 16.90625,
+    "threads": 4,
+    "completed_epochs": 1,
+    "training_tiles": 28,
+    "validation_tiles": 15
+  }
+}

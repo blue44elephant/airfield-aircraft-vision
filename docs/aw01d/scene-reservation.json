@@ -1,0 +1,43 @@
+{
+  "created_date": "2026-10-22",
+  "selection": "Fresh reserved groups; bounded HEAD-verified small COGs, no model outputs.",
+  "max_bytes": 134217728,
+  "scenes": [
+    {
+      "split": "test",
+      "group": "rareplanes-location-90",
+      "scene": "90_1040010003555D00",
+      "expected_bytes": 1037241
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-49",
+      "scene": "49_1040010023B00E00",
+      "expected_bytes": 4109130
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-10",
+      "scene": "10_1040010039679A00",
+      "expected_bytes": 7763531
+    },
+    {
+      "split": "test",
+      "group": "rareplanes-location-101",
+      "scene": "101_104001003BD74200",
+      "expected_bytes": 5771043
+    },
+    {
+      "split": "train",
+      "group": "rareplanes-location-8",
+      "scene": "8_104001001051CB00",
+      "expected_bytes": 930403
+    },
+    {
+      "split": "validation",
+      "group": "rareplanes-location-14",
+      "scene": "14_104001001200CC00",
+      "expected_bytes": 1218756
+    }
+  ]
+}

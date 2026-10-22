@@ -57,3 +57,7 @@ and [reviewed successes/failures](docs/examples/aw01b/README.md). The original A
 See [AW-01C workflows](docs/AW01C_WORKFLOWS.md) and [validation](docs/AW01C_VALIDATION.md) for the isolated native-pixel ResNet/MobileNet comparison, reviewed background crops, and independent evaluation. Original AW-01/AW-01B artifacts remain available.
 
 The frozen AW-01C ResNet prototype achieved 81.2% precision, 75.9% recall and count MAE 1.04 on 68 reserved tiles from nine unseen airfield groups. It remains experimental: independent empty-scene false alarms and operational reliability are unverified.
+
+## AW-01D robustness and readiness
+
+See [measured robustness and readiness](docs/AW01D_VALIDATION.md), [Windows workflows](docs/AW01D_WORKFLOWS.md) and [native examples](docs/aw01d/examples/README.md). Fresh positive-tile precision/recall are 80.3%/80.9% (48 tiles); whole-raster counting still has substantial false alarms. The safe contract exposes uncertainty, partial coverage and null counts on failure. Original AW-01C remains the baseline; automatic whole-airfield counting is not ready.

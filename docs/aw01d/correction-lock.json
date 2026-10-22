@@ -1,0 +1,18 @@
+{
+  "baseline_checkpoint_sha256": "d2aecd3624648981f35def1fff7bb36789f9635546f4f848c719c48e647eda42",
+  "manifest_sha256": "9c99ad586a844dbf2cb6dfea2590225f63d47e99595e4738fd90474b24972aeb",
+  "configuration": {
+    "architecture": "fasterrcnn_resnet50_fpn",
+    "epochs": 1,
+    "lr": 5e-05,
+    "threads": 4,
+    "max_seconds": 90,
+    "seed": 91
+  },
+  "fixed_raw_threshold": 0.7,
+  "training_tiles": 28,
+  "validation_tiles": 15,
+  "test_tiles": 0,
+  "automatic_promotion": false,
+  "policy": "One predeclared pilot; validation only. No independent evaluation, search or model promotion."
+}

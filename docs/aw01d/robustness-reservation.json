@@ -1,0 +1,351 @@
+{
+  "version": "aw01d-reservation-1",
+  "created_date": "2026-10-22",
+  "seed": 71,
+  "tiles_per_group": 6,
+  "metadata_sha256": {
+    "RarePlanes_Public_Metadata.csv": "005eb9c6c4ab0f0fea1f8402f202066b6f4d29617ef263f72b1be34dea35edec",
+    "instances_train_aircraft.json": "4dfd419347ca7838b67a8ccfd44cf1c9228dc85d0b8c5e158d4d2de6819219db",
+    "RarePlanes_Public_All_Annotations.geojson": "3e4786590cb350038d18120732787b1a6586408ab0685d344ef0730815e79ecb",
+    "RarePlanes_Train_Coco_Annotations_tiled.json": "d51f4fc97422934c8f3846207d6ec453dfbb69ae0432537731104a8f0e4c1540"
+  },
+  "previous_manifests": {
+    "data/rareplanes/manifest.json": "311cb70ee56a3765b86f539f5a075fb8deb4ad44ae14b3d04b4098c92f029138",
+    "data/rareplanes-aw01b/manifest-balanced.json": "77691871c48a7ac96b31c37bd33a226546ae3d73c37d643f4cb58cf00037a832",
+    "data/rareplanes-aw01c/manifest-with-negatives.json": "43ae21e69afe45da46d96f6d34b5c41362bab2ef16396a3a5cefdbc76e8c425f"
+  },
+  "exposed_group_count": 54,
+  "remaining_fresh_group_count": 29,
+  "selected_groups": {
+    "test": [
+      "rareplanes-location-4",
+      "rareplanes-location-130",
+      "rareplanes-location-15",
+      "rareplanes-location-10",
+      "rareplanes-location-90",
+      "rareplanes-location-49",
+      "rareplanes-location-43",
+      "rareplanes-location-101"
+    ],
+    "validation": [
+      "rareplanes-location-125",
+      "rareplanes-location-14"
+    ],
+    "train": [
+      "rareplanes-location-53",
+      "rareplanes-location-8",
+      "rareplanes-location-72",
+      "rareplanes-location-20"
+    ]
+  },
+  "selected_ids": {
+    "test": [
+      "4_10400100360CD600_tile_726.png",
+      "4_10400100101BE000_tile_756.png",
+      "4_10400100101BE000_tile_846.png",
+      "4_10400100360CD600_tile_778.png",
+      "4_10400100101BE000_tile_683.png",
+      "4_1040010019345B00_tile_870.png",
+      "130_104001000F25CE00_tile_528.png",
+      "130_104001002E47CD00_tile_1034.png",
+      "130_104001002E47CD00_tile_1145.png",
+      "130_104001002E47CD00_tile_479.png",
+      "130_104001002E47CD00_tile_1008.png",
+      "130_104001000F25CE00_tile_1034.png",
+      "15_104005000DDC3800_tile_27.png",
+      "15_104005000DDC3800_tile_26.png",
+      "15_104005000DDC3800_tile_52.png",
+      "15_104005000DDC3800_tile_80.png",
+      "15_104005000DDC3800_tile_40.png",
+      "15_104005000DDC3800_tile_53.png",
+      "10_1040010039679A00_tile_166.png",
+      "10_10400100386D9000_tile_24.png",
+      "10_10400100386D9000_tile_85.png",
+      "10_1040010039679A00_tile_67.png",
+      "10_10400100386D9000_tile_159.png",
+      "10_1040010039679A00_tile_51.png",
+      "90_1040010003555D00_tile_25.png",
+      "90_1040010030C39600_tile_17.png",
+      "90_1040010003555D00_tile_33.png",
+      "90_104001002C567600_tile_25.png",
+      "90_104001002C567600_tile_17.png",
+      "90_1040010030C39600_tile_41.png",
+      "49_1040010023B00E00_tile_112.png",
+      "49_1040010023B00E00_tile_94.png",
+      "49_1040010023B00E00_tile_49.png",
+      "49_104001001A248400_tile_136.png",
+      "49_104001001A248400_tile_125.png",
+      "49_104001001A248400_tile_134.png",
+      "43_104001000BA11B00_tile_61.png",
+      "43_104001000BA11B00_tile_43.png",
+      "43_104001000BA11B00_tile_20.png",
+      "43_104001000BA11B00_tile_44.png",
+      "43_104001000BA11B00_tile_45.png",
+      "43_104001000BA11B00_tile_78.png",
+      "101_104001003BD74200_tile_161.png",
+      "101_104001003BD74200_tile_160.png",
+      "101_104001003BD74200_tile_192.png",
+      "101_104001003BD74200_tile_193.png",
+      "101_104001003BD74200_tile_198.png",
+      "101_104001003BD74200_tile_185.png"
+    ],
+    "validation": [
+      "125_10400100088C2C00_tile_86.png",
+      "125_10400100088C2C00_tile_116.png",
+      "125_10400100088C2C00_tile_95.png",
+      "125_10400100363EC000_tile_432.png",
+      "125_10400100363EC000_tile_115.png",
+      "125_10400100088C2C00_tile_88.png",
+      "14_104001001200CC00_tile_4.png",
+      "14_104001001200CC00_tile_5.png",
+      "14_104001001200CC00_tile_13.png",
+      "14_104001001200CC00_tile_52.png",
+      "14_104001001200CC00_tile_14.png"
+    ],
+    "train": [
+      "53_1040010008249C00_tile_136.png",
+      "53_10400100087A4F00_tile_132.png",
+      "53_10400100080B8100_tile_54.png",
+      "53_10400100087A4F00_tile_149.png",
+      "53_10400100080B8100_tile_132.png",
+      "53_1040010008249C00_tile_119.png",
+      "8_104001001051CB00_tile_68.png",
+      "8_104001001051CB00_tile_69.png",
+      "8_1040050009DCE300_tile_62.png",
+      "8_104001001051CB00_tile_70.png",
+      "8_1040050009DCE300_tile_76.png",
+      "8_104001001051CB00_tile_67.png",
+      "72_1040010042C71600_tile_55.png",
+      "72_1040010041460F00_tile_36.png",
+      "72_1040010042C71600_tile_157.png",
+      "72_1040010041460F00_tile_115.png",
+      "72_1040010041460F00_tile_20.png",
+      "72_1040010042C71600_tile_103.png",
+      "20_10400100119D4500_tile_139.png",
+      "20_10400100119D4500_tile_138.png",
+      "20_1040010038CAE700_tile_132.png",
+      "20_1040010038CAE700_tile_250.png",
+      "20_10400100119D4500_tile_419.png",
+      "20_1040010038CAE700_tile_151.png"
+    ]
+  },
+  "selection": "Country/weather diversity with seeded ties. Per group: seeded/crowded/small/partial first, then capture-balanced seeded tiles. No model predictions.",
+  "evaluation_policy": "Stratified diagnostic sample, not prevalence estimate. Test labels cannot select a model/threshold. AW01C baseline fixed before evaluation. Corrective experiments use only reserved train/validation.",
+  "timestamp_policy": "Source minute precision; UTC assumed, not verified.",
+  "official_partition": "All reserved groups are official training partition but have never appeared in any prior experiment split.",
+  "group_metadata": {
+    "rareplanes-location-4": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies",
+        "Snow"
+      ],
+      "airfields": [
+        "Seattle-Tacoma International Airport"
+      ],
+      "capture_groups": [
+        "10400100101BE000",
+        "1040010019345B00",
+        "10400100360CD600"
+      ]
+    },
+    "rareplanes-location-130": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies",
+        "Cloud Cover or Haze"
+      ],
+      "airfields": [
+        "Philadelphia International Airport"
+      ],
+      "capture_groups": [
+        "104001000F25CE00",
+        "104001002E47CD00"
+      ]
+    },
+    "rareplanes-location-15": {
+      "countries": [
+        "Germany"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Airport Augsburg"
+      ],
+      "capture_groups": [
+        "104005000DDC3800"
+      ]
+    },
+    "rareplanes-location-10": {
+      "countries": [
+        "France"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Aerpoport de Montpellier"
+      ],
+      "capture_groups": [
+        "10400100386D9000",
+        "1040010039679A00"
+      ]
+    },
+    "rareplanes-location-90": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Gardner Municipal Airport"
+      ],
+      "capture_groups": [
+        "1040010003555D00",
+        "104001002C567600",
+        "1040010030C39600"
+      ]
+    },
+    "rareplanes-location-49": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Casa Grande Municipal Airport"
+      ],
+      "capture_groups": [
+        "104001001A248400",
+        "1040010023B00E00"
+      ]
+    },
+    "rareplanes-location-43": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Cleveland Municipal Airport"
+      ],
+      "capture_groups": [
+        "104001000BA11B00"
+      ]
+    },
+    "rareplanes-location-101": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Snow"
+      ],
+      "airfields": [
+        "Hot Springs Memorial Field"
+      ],
+      "capture_groups": [
+        "104001003BD74200"
+      ]
+    },
+    "rareplanes-location-125": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies",
+        "Snow"
+      ],
+      "airfields": [
+        "Long Island MacArthur Airport"
+      ],
+      "capture_groups": [
+        "10400100088C2C00",
+        "10400100363EC000"
+      ]
+    },
+    "rareplanes-location-14": {
+      "countries": [
+        "Germany"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Airbus Segelfluggemeinschaft Bremen"
+      ],
+      "capture_groups": [
+        "104001001200CC00"
+      ]
+    },
+    "rareplanes-location-53": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Clear Skies",
+        "Snow"
+      ],
+      "airfields": [
+        "Yeager Airport"
+      ],
+      "capture_groups": [
+        "10400100080B8100",
+        "1040010008249C00",
+        "10400100087A4F00"
+      ]
+    },
+    "rareplanes-location-8": {
+      "countries": [
+        "France"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Bailleau Armenonville Airport"
+      ],
+      "capture_groups": [
+        "104001001051CB00",
+        "1040050009DCE300"
+      ]
+    },
+    "rareplanes-location-72": {
+      "countries": [
+        "USA"
+      ],
+      "weather": [
+        "Cloud Cover or Haze"
+      ],
+      "airfields": [
+        "Miami Homestead General Aviation Airport"
+      ],
+      "capture_groups": [
+        "1040010041460F00",
+        "1040010042C71600"
+      ]
+    },
+    "rareplanes-location-20": {
+      "countries": [
+        "Germany"
+      ],
+      "weather": [
+        "Clear Skies"
+      ],
+      "airfields": [
+        "Airport Nuremberg"
+      ],
+      "capture_groups": [
+        "10400100119D4500",
+        "1040010038CAE700"
+      ]
+    }
+  }
+}
